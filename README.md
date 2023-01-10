@@ -1,3 +1,7 @@
-# den10004-Superlux
+# В разработке
 
-# https://github.com/den10004/Superlux.git
+# den10004-Superlux https://github.com/den10004/Superlux.git
+
+# ссылка не проект
+
+# https://den10004.github.io/Superlux/
