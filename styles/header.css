@@ -63,10 +63,25 @@
   justify-content: space-between;
 }
 
+.header__social > svg {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.header__social > svg:hover {
+  transform: scale(1.1);
+}
+
 .header__tel {
   font-weight: 800;
   font-size: 18px;
   color: #222222;
+  transition: 0s color;
+  transition-delay: 0.3s;
+  cursor: pointer;
+}
+
+.header__tel:hover {
+  color: red;
 }
 
 @media screen and (max-width: 950px) {
