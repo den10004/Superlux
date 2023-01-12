@@ -1,4 +1,5 @@
 @import "./header.css";
+@import "./navigation.css";
 @import "./normalize.css";
 @import "../vendor/fonts.css";
 
@@ -11,7 +12,14 @@ body {
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+/*
+svg path {
+  fill: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+}*/
 
 .fontMont {
   font-family: "Mont";

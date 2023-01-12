@@ -1,0 +1,128 @@
+.navigation {
+  background: #f0f0f0;
+  padding: 18px 0 18px 0;
+}
+
+.navigation__wrapper {
+  max-width: 1376px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 1400px) {
+  .navigation__wrapper {
+    width: 95%;
+  }
+}
+
+.navigation__wrapper-list {
+  display: flex;
+  list-style-type: none;
+  width: 1015px;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 950px) {
+  .navigation__wrapper-list {
+    margin: 10px 0 10px 0;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .navigation__wrapper-list {
+    width: 100%;
+  }
+}
+
+.navigation__wrapper-list > li {
+  cursor: pointer;
+  color: #888888;
+  transition: 0s color;
+  transition-delay: 0.3s;
+}
+
+.navigation__wrapper-list > li:hover {
+  color: #ff2424;
+}
+
+.navigation__wrapper-inputBlock {
+  margin-left: 10px;
+  width: 250px;
+  position: relative;
+}
+
+.navigation__wrapper-inputBlock > input {
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #aaa;
+  outline: none;
+  padding: 8px;
+  background: transparent;
+}
+
+.navigation__wrapper-inputBlock > svg {
+  position: absolute;
+  right: 0;
+  top: 8px;
+  cursor: pointer;
+}
+
+.navigation__wrapper-inputBlock > svg > g > path {
+  fill: #222222;
+  transition: 0s color;
+  transition-delay: 0.3s;
+}
+
+.navigation__wrapper-inputBlock > svg > g > path:hover {
+  fill: #ff2424;
+}
+
+::-webkit-input-placeholder {
+  color: #c4c4c4;
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+:-moz-placeholder {
+  color: #c4c4c4;
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+::-moz-placeholder {
+  color: #c4c4c4;
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+:-ms-input-placeholder {
+  color: #c4c4c4;
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+::-ms-input-placeholder {
+  color: #c4c4c4;
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+::placeholder {
+  color: #c4c4c4;
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
