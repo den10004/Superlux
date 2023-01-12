@@ -7,7 +7,14 @@
 
 @font-face {
   font-family: "Mont";
-  font-style: normal;
+  font-style: bold;
   font-weight: 900;
   src: url("./fonts/Mont-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "EuropeExt";
+  font-style: bold;
+  font-weight: 700;
+  src: url("./fonts/europeext-bold.woff2") format("woff2");
 }

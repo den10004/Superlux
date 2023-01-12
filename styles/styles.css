@@ -1,12 +1,14 @@
 @import "./header.css";
 @import "./navigation.css";
+@import "./advertisement.css";
+@import "./slider.css";
 @import "./normalize.css";
 @import "../vendor/fonts.css";
 
 body {
   margin: 0 auto;
   padding: 0;
-  max-width: 1920px;
+  max-width: 100%;
 }
 
 * {
@@ -14,12 +16,23 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-/*
-svg path {
-  fill: inherit;
-  stroke: inherit;
-  stroke-width: inherit;
-}*/
+.button-main {
+  width: 240px;
+  height: 60px;
+  background: #222222;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 100%;
+  border: none;
+  cursor: pointer;
+  transition: 0s background;
+  transition-delay: 0.3s;
+}
+
+.button-main:hover {
+  background: #ff2424;
+}
 
 .fontMont {
   font-family: "Mont";
