@@ -11,7 +11,7 @@ var swiper3 = new Swiper(".new-slider", {
   slidesPerView: 3,
   spaceBetween: 45,
   scrollbar: {
-    el: ".swiper-scrollbar",
+    el: ".new-scrollbar",
     hide: false,
     draggable: true,
   },

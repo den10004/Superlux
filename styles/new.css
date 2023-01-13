@@ -97,21 +97,39 @@
   }
 }
 
-.new-scrollbar .swiper-scrollbar {
+.new-scrollbar {
   height: 1px !important;
 }
 
-.new-scrollbar-drag .swiper-scrollbar-drag {
+.swiper-scrollbar-drag {
   height: 1px;
   background: #ff2424;
   color: #ff2424;
   background-color: #ff2424;
 }
 
-.new-prev {
+.new__slider-button-block {
+  display: flex;
+  justify-content: space-between;
+  width: 72px;
+  margin-left: auto;
+  margin-top: 50px;
 }
 
-.new-next {
+.new__slider-button-block > button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.new__slider-button-block > button > svg > path {
+  color: #222222;
+  transition: 0s color;
+  transition-delay: 0.3s;
+}
+
+.new__slider-button-block > button > svg > path:hover {
+  fill: #ff2424;
 }
 
 /***********карточка товара*******************/
@@ -126,8 +144,17 @@
 }
 
 .article {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
+.article > img {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.article > img:hover {
+  transform: scale(1.1);
+}
+
 .article__description-name {
   display: flex;
   justify-content: space-between;
