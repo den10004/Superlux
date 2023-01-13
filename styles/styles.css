@@ -1,6 +1,7 @@
 @import "./header.css";
 @import "./navigation.css";
 @import "./advertisement.css";
+@import "./new.css";
 @import "./slider.css";
 @import "./normalize.css";
 @import "../vendor/fonts.css";
@@ -38,3 +39,72 @@ body {
   font-family: "Mont";
   font-style: normal;
 }
+
+.fontEuropeExt {
+  font-family: "EuropeExt";
+  font-style: normal;
+}
+
+.block-style {
+  max-width: 1180px;
+  margin: 120px auto 0 auto;
+}
+
+@media screen and (max-width: 1440px) {
+  .block-style {
+    max-width: 95%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .block-style {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .block-style {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .block-style {
+    margin-top: 20px;
+  }
+}
+
+/*********кнопка слайдера*********************/
+.slider-button-img {
+  position: relative;
+  cursor: pointer;
+}
+
+.ellipse {
+  position: absolute;
+  top: 0;
+  fill: #222222;
+  transition: 0s color;
+  transition-delay: 0.3s;
+  cursor: pointer;
+}
+
+.ellipse > path:hover {
+  fill: #ff2424;
+}
+
+.vector {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  fill: #222222;
+  transition: 0s color;
+  transition-delay: 0.3s;
+  cursor: pointer;
+}
+
+.vector > path:hover {
+  fill: #fff;
+}
+
+/******************************/

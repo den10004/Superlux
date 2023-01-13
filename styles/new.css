@@ -1,0 +1,164 @@
+.new {
+  background: #ffffff;
+}
+
+.new__wrapper {
+  /* max-width: 1180px;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+@media screen and (max-width: 1024px) {
+  .new__wrapper {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .new__wrapper {
+    margin-bottom: 20px;
+  }
+}
+
+.new__wrapper-headline {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (max-width: 1440px) {
+  .new__wrapper-headline {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .new__wrapper-headline {
+    flex-direction: column;
+  }
+}
+
+.new__wrapper-new {
+  width: 505px;
+}
+
+@media screen and (max-width: 767px) {
+  .new__wrapper-new {
+    width: 95%;
+  }
+}
+
+.new__wrapper-new > span {
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.new__wrapper-new > h4 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #222222;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 425px) {
+  .new__wrapper-new > h4 {
+    font-size: 25px;
+  }
+}
+
+.new__wrapper-description {
+  width: 395px;
+  display: flex;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+  .new__wrapper-description {
+    width: 95%;
+  }
+}
+
+/*********слайдер**********/
+
+.new__slider {
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 767px) {
+  .new__slider {
+    margin-top: 40px;
+  }
+}
+
+.new-scrollbar .swiper-scrollbar {
+  height: 1px !important;
+}
+
+.new-scrollbar-drag .swiper-scrollbar-drag {
+  height: 1px;
+  background: #ff2424;
+  color: #ff2424;
+  background-color: #ff2424;
+}
+
+.new-prev {
+}
+
+.new-next {
+}
+
+/***********карточка товара*******************/
+
+.article__about {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #888888;
+  text-align: start;
+  margin-top: 10px;
+}
+
+.article {
+  margin-bottom: 60px;
+}
+.article__description-name {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.article__description-name > h6 {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 100%;
+  color: #222222;
+}
+
+.article__description-name > span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  color: #222222;
+}
+
+.article__description-detail {
+  display: flex;
+  width: 140px;
+  margin-left: auto;
+}
+
+.article__description-detail > a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333333;
+  text-decoration: none;
+  margin-top: 8px;
+}
