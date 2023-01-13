@@ -86,6 +86,11 @@ body {
   }
 }
 
+button {
+  border: none;
+  background: transparent;
+}
+
 /*********кнопка слайдера*********************/
 .slider-button-img {
   position: relative;
