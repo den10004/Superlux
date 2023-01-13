@@ -2,6 +2,7 @@
 @import "./navigation.css";
 @import "./advertisement.css";
 @import "./new.css";
+@import "./popular.css";
 @import "./slider.css";
 @import "./normalize.css";
 @import "../vendor/fonts.css";
@@ -47,7 +48,7 @@ body {
 
 .block-style {
   max-width: 1180px;
-  margin: 120px auto 0 auto;
+  margin: 120px auto 120px auto;
 }
 
 @media screen and (max-width: 1440px) {
@@ -64,13 +65,24 @@ body {
 
 @media screen and (max-width: 768px) {
   .block-style {
-    margin-top: 60px;
+    margin: 60px auto 60px auto;
   }
 }
 
 @media screen and (max-width: 425px) {
   .block-style {
-    margin-top: 20px;
+    margin: 20px auto 20px auto;
+  }
+}
+
+.blockWidth {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1440px) {
+  .blockWidth {
+    max-width: 95%;
   }
 }
 
@@ -108,3 +120,93 @@ body {
 }
 
 /******************************/
+
+.head {
+  background: #ffffff;
+}
+
+.headColor {
+  background: #f6f6f6;
+}
+
+.head__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+@media screen and (max-width: 1024px) {
+  .head__wrapper {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .head__wrapper {
+    margin-bottom: 20px;
+  }
+}
+
+.head__wrapper-headline {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (max-width: 1440px) {
+  .head__wrapper-headline {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .head__wrapper-headline {
+    flex-direction: column;
+  }
+}
+
+.head__wrapper-new {
+  width: 510px;
+}
+
+@media screen and (max-width: 767px) {
+  .head__wrapper-new {
+    width: 95%;
+  }
+}
+
+.head__wrapper-new > span {
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.head__wrapper-new > h4 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #222222;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 425px) {
+  .head__wrapper-new > h4 {
+    font-size: 25px;
+  }
+}
+
+.head__wrapper-description {
+  width: 395px;
+  display: flex;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+  .head__wrapper-description {
+    width: 95%;
+  }
+}

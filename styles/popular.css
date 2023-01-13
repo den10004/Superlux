@@ -1,0 +1,79 @@
+.popular {
+  background: #f6f6f6;
+  width: 100%;
+  padding: 120px 0 120px 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .popular {
+    padding: 80px 0 80px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .popular {
+    padding: 40px 0 40px 0;
+  }
+}
+
+.popular__block {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 767px) {
+  .popular__block {
+    margin-top: 40px;
+    flex-direction: column;
+  }
+}
+
+.popular__block-wrapper {
+  width: 1180px;
+  margin: 0 auto;
+}
+/***********табы*********************/
+
+.tabs {
+  width: 100%;
+  padding: 0px;
+  margin: 0 auto;
+  position: relative;
+}
+.section {
+  display: none;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  left: 180px;
+}
+.section > p {
+  margin: 0;
+}
+.tabs > input {
+  display: none;
+}
+.tabs > label {
+  display: block;
+  width: 180px;
+  padding: 15px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  color: #888888;
+}
+input:checked + label {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 100%;
+  color: #222222;
+}
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+  display: block;
+}
