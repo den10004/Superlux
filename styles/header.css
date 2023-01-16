@@ -1,6 +1,6 @@
 .header {
   background: #ffffff;
-  padding: 21px 0 21px 0;
+  padding: 20px 0;
 }
 
 .header__wrapper {
@@ -26,8 +26,6 @@
 .header__list {
   display: flex;
   list-style-type: none;
-  width: 538px;
-  justify-content: space-between;
   font-weight: 700;
   font-size: 14px;
   flex-wrap: wrap;
@@ -49,18 +47,38 @@
   cursor: pointer;
   padding: 2px 5px 2px 0;
   color: #888888;
-  transition: 0s color;
-  transition-delay: 0.3s;
 }
 
-.header__list > li:hover {
+.header__list > li > a {
+  transition: 0.3s color;
+}
+
+.header__list > li > a:hover {
   color: #ff2424;
+}
+
+.header__list > li + li {
+  margin-left: 50px;
+}
+
+.header__list > li > a {
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: 700;
+  font-size: 14px;
+  color: #888888;
 }
 
 .header__social {
   display: flex;
-  width: 84px;
-  justify-content: space-between;
+}
+
+.header__social-link {
+  display: block;
+}
+
+.header__social-link + .header__social-link {
+  margin-left: 20px;
 }
 
 .header__social > svg {
@@ -75,8 +93,7 @@
   font-weight: 800;
   font-size: 18px;
   color: #222222;
-  transition: 0s color;
-  transition-delay: 0.3s;
+  transition: 0.3s color;
   cursor: pointer;
 }
 
@@ -88,4 +105,14 @@
   .header__tel {
     margin: 10px 0 0 0;
   }
+}
+
+.logo {
+  display: block;
+}
+
+.logo > img {
+  width: 132px;
+  height: 30px;
+  object-fit: contain;
 }

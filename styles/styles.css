@@ -28,8 +28,7 @@ body {
   line-height: 100%;
   border: none;
   cursor: pointer;
-  transition: 0s background;
-  transition-delay: 0.3s;
+  transition: 0.3s background;
 }
 
 .button-main:hover {
@@ -89,6 +88,7 @@ body {
 button {
   border: none;
   background: transparent;
+  cursor: pointer;
 }
 
 /*********кнопка слайдера*********************/
@@ -101,8 +101,7 @@ button {
   position: absolute;
   top: 0;
   fill: #222222;
-  transition: 0s color;
-  transition-delay: 0.3s;
+  transition: 0.3s color;
   cursor: pointer;
 }
 
@@ -115,8 +114,8 @@ button {
   top: 15px;
   left: 15px;
   fill: #222222;
-  transition: 0s color;
-  transition-delay: 0.3s;
+  transition: 0.3s color;
+
   cursor: pointer;
 }
 
