@@ -21,18 +21,17 @@ body {
 .button-main {
   width: 240px;
   height: 60px;
-  background: #222222;
-  color: #ffffff;
-  font-weight: 600;
-  font-size: 13px;
   line-height: 100%;
-  border: none;
-  cursor: pointer;
   transition: 0.3s background;
 }
 
 .button-main:hover {
   background: #ff2424;
+}
+
+button {
+  border: none;
+  cursor: pointer;
 }
 
 .fontMont {
@@ -83,12 +82,6 @@ body {
   .blockWidth {
     max-width: 95%;
   }
-}
-
-button {
-  border: none;
-  background: transparent;
-  cursor: pointer;
 }
 
 /*********кнопка слайдера*********************/
@@ -171,7 +164,8 @@ button {
 }
 
 .head__wrapper-new {
-  width: 510px;
+  text-align: start;
+  /* width: 510px;*/
 }
 
 @media screen and (max-width: 767px) {
@@ -191,6 +185,15 @@ button {
 .head__wrapper-new > h4 {
   font-weight: 700;
   font-size: 34px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #222222;
+  margin-top: 15px;
+}
+
+.head__wrapper-new > h3 {
+  font-weight: 700;
+  font-size: 42px;
   line-height: 120%;
   text-transform: uppercase;
   color: #222222;

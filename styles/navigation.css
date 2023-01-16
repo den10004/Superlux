@@ -4,7 +4,7 @@
 }
 
 .navigation__wrapper {
-  max-width: 1376px;
+  max-width: 1380px;
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1440px) {
   .navigation__wrapper {
     width: 95%;
   }
@@ -26,23 +26,10 @@
 .navigation__wrapper-list {
   display: flex;
   list-style-type: none;
-  width: 1015px;
   justify-content: space-between;
   font-weight: 600;
   font-size: 14px;
   flex-wrap: wrap;
-}
-
-@media screen and (max-width: 1024px) {
-  .navigation__wrapper-list {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 570px) {
-  .navigation__wrapper-list {
-    width: 100%;
-  }
 }
 
 .navigation__wrapper-list > li > a {
@@ -50,7 +37,10 @@
   color: #888888;
   transition: 0.3s color;
   cursor: pointer;
-  padding: 5px;
+}
+
+.navigation__wrapper-list > li + li {
+  margin-left: 70px;
 }
 
 .navigation__wrapper-list > li > a:hover {
@@ -58,7 +48,6 @@
 }
 
 .search {
-  margin-left: 10px;
   width: 250px;
   position: relative;
 }
@@ -71,6 +60,7 @@
 
 .input-field {
   width: 100%;
+  height: 20px;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -84,7 +74,6 @@
 .search > button {
   position: absolute;
   right: 0;
-  top: 5px;
   cursor: pointer;
 }
 
@@ -96,6 +85,10 @@
 
 .search > button > svg > g > path:hover {
   fill: #ff2424;
+}
+
+.navigation-button {
+  height: 17px;
 }
 
 ::-webkit-input-placeholder {
