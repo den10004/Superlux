@@ -7,7 +7,7 @@ var swiper1 = new Swiper(".advertisement-slider", {
 });
 
 var swiper3 = new Swiper(".new-slider", {
-  loop: true,
+  loop: false,
   slidesPerView: 3,
   spaceBetween: 45,
   scrollbar: {
@@ -20,8 +20,9 @@ var swiper3 = new Swiper(".new-slider", {
     prevEl: ".new-prev",
   },
   breakpoints: {
-    320: {
+    120: {
       slidesPerView: 1,
+      spaceBetween: 20,
     },
 
     767: {
@@ -29,6 +30,11 @@ var swiper3 = new Swiper(".new-slider", {
     },
     1024: {
       slidesPerView: 3,
+      spaceBetween: 20,
+    },
+    1090: {
+      slidesPerView: 3,
+      spaceBetween: 45,
     },
   },
 });

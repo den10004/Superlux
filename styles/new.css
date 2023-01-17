@@ -26,7 +26,12 @@
   justify-content: space-between;
   width: 72px;
   margin-left: auto;
-  margin-top: 50px;
+}
+
+@media screen and (max-width: 425px) {
+  .new__slider-button-block {
+    display: none;
+  }
 }
 
 .new__slider-button-block > button {
@@ -45,7 +50,19 @@
   fill: #ff2424;
 }
 
+.new__slider-button {
+  display: flex;
+}
+
+.swiper-scrollbar .new-scrollbar .swiper-scrollbar-horizontal {
+  width: 50%;
+}
+
 /***********карточка товара*******************/
+
+.article {
+  margin-bottom: 20px;
+}
 
 .article__about {
   font-weight: 600;
@@ -56,9 +73,12 @@
   margin-top: 10px;
 }
 
-.article {
-  margin-bottom: 20px;
+@media screen and (max-width: 425px) {
+  .article__about {
+    font-size: 14px;
+  }
 }
+
 .article > img {
   cursor: pointer;
   transition: 0.3s;
@@ -74,11 +94,17 @@
   margin-top: 25px;
 }
 
-.article__description-name > h6 {
+.article__description-name > a {
   font-weight: 800;
   font-size: 18px;
   line-height: 100%;
   color: #222222;
+}
+
+@media screen and (max-width: 425px) {
+  .article__description-name > a {
+    font-size: 16px;
+  }
 }
 
 .article__description-name > span {
@@ -86,6 +112,12 @@
   font-size: 18px;
   line-height: 100%;
   color: #222222;
+}
+
+@media screen and (max-width: 425px) {
+  .article__description-name > span {
+    font-size: 16px;
+  }
 }
 
 .article__description-detail {
@@ -101,4 +133,15 @@
   color: #333333;
   text-decoration: none;
   margin-top: 8px;
+}
+
+.article__description-detail > a:hover {
+  color: #ff2424;
+  transition: color 0.3s;
+}
+
+@media screen and (max-width: 425px) {
+  .article__description-detail > a {
+    font-size: 14px;
+  }
 }
