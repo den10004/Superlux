@@ -34,6 +34,13 @@
 .popular__block-wrapper {
   width: 1180px;
   margin: 0 auto;
+  height: 500px;
+}
+
+@media screen and (max-width: 1200px) {
+  .popular__block-wrapper {
+    width: 100%;
+  }
 }
 
 /***********табы*********************/
@@ -52,6 +59,12 @@
   right: 0;
   width: 786px;
 }
+
+@media screen and (max-width: 1000px) {
+  .section {
+  }
+}
+
 .section > p {
   margin: 0;
 }
@@ -95,6 +108,19 @@ input:checked + label {
 
 /*************слайдер**********************/
 
+.popular__content {
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .popular__content {
+    width: 360px;
+    display: flex;
+    margin-right: 0;
+    margin-left: auto;
+  }
+}
+
 .popular-slider-content {
   background: #ffffff;
   display: flex;
@@ -119,4 +145,11 @@ input:checked + label {
   z-index: 20;
   width: 105%;
   top: 25%;
+}
+
+.popular__img > img {
+  display: block;
+  width: 370px;
+  height: 370px;
+  overflow: hidden;
 }

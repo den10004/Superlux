@@ -51,4 +51,12 @@ var swiper2 = new Swiper(".popular-slider", {
     nextEl: ".popular-next",
     prevEl: ".popular-prev",
   },
+  breakpoints: {
+    120: {
+      slidesPerView: 1,
+    },
+    1001: {
+      slidesPerView: 2,
+    },
+  },
 });
