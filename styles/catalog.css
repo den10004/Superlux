@@ -21,6 +21,7 @@
   width: 100%;
   justify-content: space-between;
   margin-top: 70px;
+  position: absolute;
 }
 
 @media screen and (max-width: 767px) {
@@ -72,9 +73,17 @@
   }
 }
 
+.catalog-section > img {
+  display: flex;
+  margin: 76px auto 0 auto;
+  width: 500px;
+  height: 377px;
+}
+
 .catalog-tabs > input {
   display: none;
 }
+
 .catalog-tabs > label {
   display: block;
   width: 180px;
@@ -123,4 +132,15 @@
   color: #ff2424;
 }
 
-/**************************************/
+/********слайдер******************************/
+
+.s {
+  position: relative;
+}
+
+.catalog-slider {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}

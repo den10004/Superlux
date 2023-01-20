@@ -60,3 +60,17 @@ var swiper2 = new Swiper(".popular-slider", {
     },
   },
 });
+
+var swiper3 = new Swiper(".catalog-slider", {
+  loop: true,
+  slidesPerView: 1.5,
+  spaceBetween: 90,
+  pagination: {
+    el: ".popular-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".catalog-next",
+    prevEl: ".catalog-prev",
+  },
+});

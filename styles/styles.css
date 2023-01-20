@@ -4,6 +4,7 @@
 @import "./new.css";
 @import "./popular.css";
 @import "./catalog.css";
+@import "./about.css";
 @import "./slider.css";
 @import "./normalize.css";
 @import "../vendor/fonts.css";
@@ -79,6 +80,17 @@ button {
 @media screen and (max-width: 425px) {
   .block-style {
     margin: 60px auto;
+  }
+}
+
+.block-styleMargin {
+  max-width: 1180px;
+  margin: 0px auto;
+}
+
+@media screen and (max-width: 1440px) {
+  .block-styleMargin {
+    max-width: 95%;
   }
 }
 
@@ -215,7 +227,7 @@ button {
 
 @media screen and (max-width: 425px) {
   .head__wrapper-new > h4 {
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -234,10 +246,18 @@ button {
   width: 395px;
   display: flex;
   align-items: flex-end;
+  color: #888888;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
 }
 
 @media screen and (max-width: 767px) {
   .head__wrapper-description {
     width: 95%;
   }
+}
+
+.width725 {
+  max-width: 725px;
 }
