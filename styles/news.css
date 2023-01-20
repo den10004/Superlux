@@ -1,0 +1,30 @@
+.news {
+  background: #f6f6f6;
+  padding: 120px 0;
+}
+
+.news__content {
+  margin-top: 86px;
+  width: 600px;
+}
+
+.news__content > h4 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #222222;
+  max-width: 384px;
+  margin-bottom: 20px;
+}
+
+.news__content-substance {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news__content-substance-main {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #222222;
+}

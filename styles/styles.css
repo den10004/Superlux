@@ -5,6 +5,9 @@
 @import "./popular.css";
 @import "./catalog.css";
 @import "./about.css";
+@import "./survey.css";
+@import "./news.css";
+@import "./footer.css";
 @import "./slider.css";
 @import "./normalize.css";
 @import "../vendor/fonts.css";
@@ -243,13 +246,13 @@ button {
 }
 
 .head__wrapper-description {
-  width: 395px;
   display: flex;
   align-items: flex-end;
   color: #888888;
   font-weight: 600;
   font-size: 14px;
   line-height: 150%;
+  text-align: end;
 }
 
 @media screen and (max-width: 767px) {
