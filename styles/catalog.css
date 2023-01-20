@@ -2,7 +2,6 @@
   background: white;
   width: 100%;
   padding: 120px 0 120px 0;
-  height: 850px;
 }
 
 @media screen and (max-width: 1440px) {
@@ -16,12 +15,38 @@
     padding: 40px 0 40px 0;
   }
 }
+
+.catalog__block {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 767px) {
+  .catalog__block {
+    margin-top: 40px;
+    flex-direction: column;
+  }
+}
+
+.catalog__block-wrapper {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .catalog__block-wrapper {
+    width: 100%;
+  }
+}
 /************табы***************/
 .catalog-tabs {
   width: 100%;
-  padding: 0px;
+  padding: 60px 0 56px 70px;
   margin: 0 auto;
   position: relative;
+  border: 1px solid #dddddd;
 }
 
 @media screen and (max-width: 600px) {
@@ -33,11 +58,12 @@
 
 .catalog-section {
   display: none;
-  padding: 15px;
   position: absolute;
   top: 0;
   right: 0;
   width: 786px;
+  background: #f6f6f6;
+  height: 100%;
 }
 
 @media screen and (max-width: 600px) {
@@ -78,17 +104,22 @@
 #catalog-tab3:checked ~ #catalog-content3,
 #catalog-tab4:checked ~ #catalog-content4,
 #catalog-tab5:checked ~ #catalog-content5,
-#catalog-tab6:checked ~ #catalog-content6 {
+#catalog-tab6:checked ~ #catalog-content6,
+#catalog-tab7:checked ~ #catalog-content7,
+#catalog-tab8:checked ~ #catalog-content8,
+#catalog-tab9:checked ~ #catalog-content9,
+#catalog-tab10:checked ~ #catalog-content10 {
   display: block;
 }
 
-.tabs > label {
-  color: #222222;
+.catalog-tabs > label {
+  color: #888888;
   transition: 0s color;
   transition-delay: 0.3s;
+  width: 344px;
 }
 
-.tabs > label:hover {
+.catalog-tabs > label:hover {
   color: #ff2424;
 }
 
