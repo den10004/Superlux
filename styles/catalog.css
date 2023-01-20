@@ -16,8 +16,8 @@
     padding: 40px 0 40px 0;
   }
 }
-
-.tabss {
+/************табы***************/
+.catalog-tabs {
   width: 100%;
   padding: 0px;
   margin: 0 auto;
@@ -25,13 +25,13 @@
 }
 
 @media screen and (max-width: 600px) {
-  .tabss {
+  .catalog-tabs {
     display: flex;
     flex-wrap: wrap;
   }
 }
 
-.section {
+.catalog-section {
   display: none;
   padding: 15px;
   position: absolute;
@@ -41,18 +41,15 @@
 }
 
 @media screen and (max-width: 600px) {
-  .section {
+  .catalog-section {
     position: relative;
   }
 }
 
-.section > p {
-  margin: 0;
-}
-.tabss > input {
+.catalog-tabs > input {
   display: none;
 }
-.tabss > label {
+.catalog-tabs > label {
   display: block;
   width: 180px;
   padding: 15px;
@@ -60,38 +57,39 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 100%;
+  color: #888888;
 }
 
 @media screen and (max-width: 600px) {
-  .tabss > label {
+  .catalog-tabs > label {
     width: auto;
     padding: 5px;
   }
 }
 
-input:checked + label {
+.catalog-input:checked + label {
   font-weight: 800;
   font-size: 16px;
   line-height: 100%;
   color: #222222;
 }
-#catalog-tabs1:checked ~ #catalog1,
-#catalog-tabs2:checked ~ #catalog2,
-#catalog-tabs3:checked ~ #catalog3,
-#catalog-tabs4:checked ~ #catalog4,
-#catalog-tabs5:checked ~ #catalog5,
-#catalog-tabs6:checked ~ #catalog6 {
+#catalog-tab1:checked ~ #catalog-content1,
+#catalog-tab2:checked ~ #catalog-content2,
+#catalog-tab3:checked ~ #catalog-content3,
+#catalog-tab4:checked ~ #catalog-content4,
+#catalog-tab5:checked ~ #catalog-content5,
+#catalog-tab6:checked ~ #catalog-content6 {
   display: block;
 }
 
-.tabss > label {
-  color: #888888;
+.tabs > label {
+  color: #222222;
   transition: 0s color;
   transition-delay: 0.3s;
 }
 
-.tabss > label:hover {
+.tabs > label:hover {
   color: #ff2424;
 }
 
-/**********************************/
+/**************************************/
