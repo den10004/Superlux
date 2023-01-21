@@ -1,13 +1,13 @@
 .card {
-  width: 360px;
-  height: 510px;
+  max-width: 360px;
+  max-height: 510px;
 }
 
 .card__about {
   font-weight: 600;
   font-size: 16px;
   line-height: 150%;
-  /*color: #888888;*/
+  color: #888888;
   text-align: start;
   margin-top: 10px;
 }

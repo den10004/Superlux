@@ -15,11 +15,28 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .popular {
+    height: 780px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .popular {
+    height: 800px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .popular {
+    height: 820px;
+  }
+}
+
 .popular__block {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  margin-top: 70px;
+  margin-top: 60px;
 }
 
 @media screen and (max-width: 767px) {
@@ -69,6 +86,8 @@
 @media screen and (max-width: 600px) {
   .section {
     position: relative;
+    width: 100%;
+    padding: 5px 0 0 0;
   }
 }
 
@@ -125,11 +144,12 @@ input:checked + label {
 
 .popular__content {
   width: 100%;
+  height: 510px;
 }
 
 @media screen and (max-width: 1000px) {
   .popular__content {
-    width: 360px;
+    max-width: 360px;
     display: flex;
     margin-right: 0;
     margin-left: auto;
@@ -139,12 +159,7 @@ input:checked + label {
 @media screen and (max-width: 600px) {
   .popular__content {
     margin-right: auto;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .popular__content {
-    width: 280px;
+    height: 480px;
   }
 }
 
@@ -170,8 +185,16 @@ input:checked + label {
   position: absolute;
   justify-content: space-between;
   z-index: 20;
-  width: 105%;
-  top: 25%;
+  width: 110%;
+  top: 28%;
+  left: -40px;
+}
+
+@media screen and (max-width: 1440px) {
+  .popular__slider-button-block {
+    width: 105%;
+    left: -20px;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -185,4 +208,22 @@ input:checked + label {
   width: 245px;
   height: 350px;
   overflow: hidden;
+}
+
+@media screen and (max-width: 1440px) {
+  .popular-next > svg {
+    width: 60px;
+    height: 60px;
+  }
+
+  .popular-prev > svg {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .popular__slider-button-block {
+    display: none;
+  }
 }
