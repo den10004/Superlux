@@ -8,6 +8,7 @@
 @import "./survey.css";
 @import "./news.css";
 @import "./footer.css";
+@import "./card.css";
 @import "./slider.css";
 @import "./normalize.css";
 @import "../vendor/fonts.css";
@@ -54,6 +55,14 @@ button {
 .fontEuropeExt {
   font-family: "EuropeExt";
   font-style: normal;
+}
+
+.bg-cF6F6F6 {
+  background-color: #f6f6f6;
+}
+
+.colorFFFFFF {
+  color: #ffffff;
 }
 
 .block-style {
@@ -108,38 +117,9 @@ button {
   }
 }
 
-/*********кнопка слайдера*********************/
-.slider-button-img {
-  position: relative;
-  cursor: pointer;
-}
-
-.ellipse {
-  position: absolute;
-  fill: #222222;
-}
-
-.vector {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  fill: #222222;
-}
-
-.slider-button-img:hover .ellipse > path {
-  fill: #ff2424;
-  transition: fill 0.3s;
-}
-
-.slider-button-img:hover .vector > path {
-  fill: #ff2424;
-  transition: fill 0.3s;
-}
-
-/******************************/
-
 .head {
   background: #ffffff;
+  position: relative;
 }
 
 .headColor {

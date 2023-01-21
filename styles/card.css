@@ -1,0 +1,123 @@
+.card {
+  width: 360px;
+  height: 510px;
+}
+
+.card__about {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  /*color: #888888;*/
+  text-align: start;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 425px) {
+  .card__about {
+    font-size: 14px;
+  }
+}
+
+.card__img {
+  display: flex;
+}
+
+.card__img > img {
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.card > img:hover {
+  transform: scale(1.1);
+}
+
+.card__description {
+  margin-top: 25px;
+  padding: 0px 5px;
+}
+
+.card__description-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__description-name > a {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 100%;
+  color: #222222;
+}
+
+@media screen and (max-width: 425px) {
+  .card__description-name > a {
+    font-size: 16px;
+  }
+}
+
+.card__description-name > span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  color: #222222;
+}
+
+@media screen and (max-width: 425px) {
+  .card__description-name > span {
+    font-size: 16px;
+  }
+}
+
+.detail {
+  display: flex;
+  width: 140px;
+  margin-left: auto;
+}
+
+.detail > a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333333;
+  text-decoration: none;
+  margin-top: 8px;
+}
+
+.detail > a:hover {
+  color: #ff2424;
+  transition: color 0.3s;
+}
+
+@media screen and (max-width: 425px) {
+  .detail > a {
+    font-size: 14px;
+  }
+}
+
+.detail-button-img {
+  position: relative;
+  cursor: pointer;
+}
+
+.ellipse {
+  position: absolute;
+  fill: #222222;
+}
+
+.vector {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  fill: #222222;
+}
+
+.detail-button-img:hover .ellipse > path {
+  fill: #ff2424;
+  transition: fill 0.3s;
+}
+
+.detail-button-img:hover .vector > path {
+  fill: #ff2424;
+  transition: fill 0.3s;
+}
