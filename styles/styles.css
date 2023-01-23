@@ -47,6 +47,10 @@ button {
   background: transparent;
 }
 
+li {
+  list-style-type: none;
+}
+
 .fontMont {
   font-family: "Mont";
   font-style: normal;
@@ -101,11 +105,19 @@ button {
   }
 }
 
-.block-width {
-  width: 1180px;
-  margin: 0 auto;
+.marginLeft130 {
+  margin-left: 130px;
 }
+@media screen and (max-width: 1440px) {
+  .marginLeft130 {
+    margin-left: 0px;
+  }
 
+  .block-width {
+    width: 1180px;
+    margin: 0 auto;
+  }
+}
 @media screen and (max-width: 1440px) {
   .block-width {
     max-width: 95%;
@@ -279,6 +291,10 @@ button {
   margin-top: 40px;
 }
 
+.margin2026 {
+  margin: 20px 0 26px;
+}
+
 @media screen and (max-width: 768px) {
   .marginTop40 {
     margin-top: 20px;
@@ -287,4 +303,36 @@ button {
 
 .marginTop17 {
   margin-top: 17px;
+}
+
+.search > button {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+.search > button svg > g > path {
+  fill: #222222;
+  transition: 0s color;
+  transition-delay: 0.3s;
+}
+
+.search > button > svg > g > path:hover {
+  fill: #ff2424;
+}
+
+.social {
+  display: flex;
+}
+
+.social > a:nth-last-child(n + 2) {
+  margin-right: 20px;
+}
+
+.social > a > svg {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.social > a > svg:hover {
+  transform: scale(1.1);
 }

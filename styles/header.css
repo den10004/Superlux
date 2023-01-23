@@ -83,39 +83,13 @@
   color: #888888;
 }
 
-.header__social {
-  display: flex;
-  margin-left: 130px;
-}
-@media screen and (max-width: 1440px) {
-  .header__social {
-    margin-left: 0px;
-  }
-}
-
-.header__social-link {
-  display: block;
-}
-
-.header__social-link + .header__social-link {
-  margin-left: 20px;
-}
-
-.header__social > a > svg {
-  cursor: pointer;
-  transition: 0.3s;
-}
-.header__social > a > svg:hover {
-  transform: scale(1.1);
-}
-
 .header__tel {
   font-weight: 800;
   font-size: 18px;
   color: #222222;
   transition: 0.3s color;
   cursor: pointer;
-  margin-left: 160px;
+  margin-left: 156px;
 }
 
 .header__tel:hover {

@@ -3,6 +3,24 @@
   padding: 120px 0;
 }
 
+@media screen and (max-width: 1024px) {
+  .news {
+    padding: 100px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news {
+    padding: 80px 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .news {
+    padding: 60px 0;
+  }
+}
+
 .news__content {
   max-width: 600px;
   background: #f6f6f6;
