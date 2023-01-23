@@ -74,3 +74,39 @@ var swiper3 = new Swiper(".catalog-slider", {
     prevEl: ".catalog-prev",
   },
 });
+
+var swiper = new Swiper(".survey-slider", {
+  loop: true,
+  slidesPerView: 2,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    120: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+  },
+});
+
+var swiper = new Swiper(".news-slider", {
+  loop: true,
+  slidesPerView: 2,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    120: {
+      slidesPerView: 1,
+    },
+    1024: {
+      slidesPerView: 2,
+    },
+  },
+});

@@ -2,23 +2,10 @@
   margin-top: 120px;
 }
 
-.head__wrapper-description > a {
-  font-weight: 600;
-  font-size: 16px;
-  text-align: right;
-  color: #222222;
-  border-bottom: 1px solid #222222;
-  transition: 0.3s color;
-  transition: 0.3s border-bottom;
-}
-
-.head__wrapper-description > a:hover {
-  color: #ff2424;
-  border-bottom: 1px solid #ff2424;
-}
-
-.survey__content {
+.survey-description {
+  width: 50%;
   display: flex;
+  align-items: flex-end;
 }
 
 .survey__content-card {
@@ -42,4 +29,10 @@
   line-height: 140%;
   color: #222222;
   margin-top: 5px;
+}
+
+.survey-pagination {
+  position: absolute;
+  top: 10px;
+  z-index: 10;
 }
