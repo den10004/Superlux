@@ -223,7 +223,12 @@ input:checked + label {
 }
 
 @media screen and (max-width: 1000px) {
-  .popular__slider-button-block {
+  .popular__slider-button-block > button {
     display: none;
   }
+}
+
+.popular-pagination {
+  margin-bottom: -250px;
+  margin-left: -200px;
 }

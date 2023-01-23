@@ -66,7 +66,7 @@ var swiper3 = new Swiper(".catalog-slider", {
   slidesPerView: 1.5,
   spaceBetween: 90,
   pagination: {
-    el: ".popular-pagination",
+    /* el: ".popular-pagination",*/
     clickable: true,
   },
   navigation: {

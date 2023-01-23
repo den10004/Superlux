@@ -68,12 +68,7 @@ button {
 .block-style {
   max-width: 1180px;
   margin: 120px auto;
-}
-
-@media screen and (max-width: 1440px) {
-  .block-style {
-    max-width: 95%;
-  }
+  padding: 0 10px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -167,11 +162,6 @@ button {
   position: relative;
   /* width: 510px;*/
 }
-@media screen and (max-width: 767px) {
-  .head__wrapper-new {
-    width: 95%;
-  }
-}
 
 .head__wrapper-new::before {
   content: "____________";
@@ -216,6 +206,29 @@ button {
   }
 }
 
+.head__wrapper-new > h5 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #222222;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .head__wrapper-new > h5 {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .head__wrapper-new > h5 {
+    font-size: 20px;
+  }
+}
+
 .head__wrapper-new > h3 {
   font-weight: 700;
   font-size: 42px;
@@ -256,4 +269,22 @@ button {
 
 .width725 {
   max-width: 725px;
+}
+
+.marginLeftAuto {
+  margin-left: auto;
+}
+
+.marginTop40 {
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .marginTop40 {
+    margin-top: 20px;
+  }
+}
+
+.marginTop17 {
+  margin-top: 17px;
 }

@@ -1,57 +1,12 @@
-.catalog {
-  background: white;
+.catalogTabs {
   width: 100%;
-  padding: 120px 0 120px 0;
-}
-
-@media screen and (max-width: 1440px) {
-  .catalog {
-    padding: 80px 0 80px 0;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .catalog {
-    padding: 40px 0 40px 0;
-  }
-}
-
-.catalog__block {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  margin-top: 70px;
-  position: absolute;
-}
-
-@media screen and (max-width: 767px) {
-  .catalog__block {
-    margin-top: 40px;
-    flex-direction: column;
-  }
-}
-
-.catalog__block-wrapper {
-  width: 1180px;
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 1200px) {
-  .catalog__block-wrapper {
-    width: 100%;
-  }
-}
-/************табы***************/
-.catalog-tabs {
-  width: 100%;
-  padding: 60px 0 56px 70px;
+  padding: 0px;
   margin: 0 auto;
   position: relative;
-  border: 1px solid #dddddd;
 }
 
 @media screen and (max-width: 600px) {
-  .catalog-tabs {
+  .catalogTabs {
     display: flex;
     flex-wrap: wrap;
   }
@@ -59,32 +14,28 @@
 
 .catalog-section {
   display: none;
+  padding: 15px;
   position: absolute;
   top: 0;
   right: 0;
   width: 786px;
-  background: #f6f6f6;
-  height: 100%;
 }
 
 @media screen and (max-width: 600px) {
   .catalog-section {
     position: relative;
+    width: 100%;
+    padding: 5px 0 0 0;
   }
 }
 
-.catalog-section > img {
-  display: flex;
-  margin: 76px auto 0 auto;
-  width: 500px;
-  height: 377px;
+.catalog-section > p {
+  margin: 0;
 }
-
-.catalog-tabs > input {
+.catalogTabs > input {
   display: none;
 }
-
-.catalog-tabs > label {
+.catalogTabs > label {
   display: block;
   width: 180px;
   padding: 15px;
@@ -96,13 +47,13 @@
 }
 
 @media screen and (max-width: 600px) {
-  .catalog-tabs > label {
+  .popularTabs > label {
     width: auto;
     padding: 5px;
   }
 }
 
-.catalog-input:checked + label {
+input:checked + label {
   font-weight: 800;
   font-size: 16px;
   line-height: 100%;
@@ -113,34 +64,16 @@
 #catalog-tab3:checked ~ #catalog-content3,
 #catalog-tab4:checked ~ #catalog-content4,
 #catalog-tab5:checked ~ #catalog-content5,
-#catalog-tab6:checked ~ #catalog-content6,
-#catalog-tab7:checked ~ #catalog-content7,
-#catalog-tab8:checked ~ #catalog-content8,
-#catalog-tab9:checked ~ #catalog-content9,
-#catalog-tab10:checked ~ #catalog-content10 {
+#catalog-tab6:checked ~ #catalog-content6 {
   display: block;
 }
 
-.catalog-tabs > label {
-  color: #888888;
+.catalogTabs > label {
+  color: #222222;
   transition: 0s color;
   transition-delay: 0.3s;
-  width: 344px;
 }
 
-.catalog-tabs > label:hover {
+.catalogTabs > label:hover {
   color: #ff2424;
-}
-
-/********слайдер******************************/
-
-.s {
-  position: relative;
-}
-
-.catalog-slider {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
 }

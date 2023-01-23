@@ -72,7 +72,6 @@
 .detail {
   display: flex;
   width: 140px;
-  margin-left: auto;
 }
 
 .detail > a {
