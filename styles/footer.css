@@ -72,3 +72,58 @@
 .footer__block-right > h4 {
   margin-top: 30px;
 }
+
+.footer-hr {
+  width: 100%;
+  height: 1px;
+  background: #c4c4c4;
+}
+
+.hr-mt4030 {
+  margin: 40px 0 30px 0;
+}
+
+.hr-mt2530 {
+  margin: 25px 0 30px 0;
+}
+
+.footer__contacts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer__contacts > h6 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #222222;
+  transition: 0.3s color;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.footer__contacts > h6 > span {
+  color: #222222;
+  font-weight: 900;
+  transition: 0.3s color;
+}
+
+.footer__contacts > h6:nth-child(2):hover {
+  cursor: pointer;
+  color: #ff2424;
+}
+
+.footer__contacts > h6:nth-child(3):hover {
+  cursor: pointer;
+  color: #ff2424;
+}
+
+.footer__all-reserved {
+  font-weight: 600;
+  font-size: 14px;
+  color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
