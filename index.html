@@ -510,28 +510,30 @@
 
         <div class="popular__block">
           <div class="popular__block-wrapper">
-            <div class="tabs">
+            <div class="popular-tabs">
               <input
-                class="fontMont"
-                id="tab1"
+                class="fontMont popular-input"
+                id="popular-tab1"
                 type="radio"
                 name="tabs"
                 checked
               />
-              <label class="fontMont" for="tab1">Наушники</label>
-              <input id="tab2" type="radio" name="tabs" />
-              <label class="fontMont" for="tab2"
+              <label class="fontMont" for="popular-tab1">Наушники</label>
+              <input id="popular-tab2" type="radio" name="tabs" />
+              <label class="fontMont" for="popular-tab2"
                 >Микрофоны и радиосистемы</label
               >
-              <input id="tab3" type="radio" name="tabs" />
-              <label class="fontMont" for="tab3">Кабели</label>
-              <input id="tab4" type="radio" name="tabs" />
-              <label class="fontMont" for="tab4">Стойки</label>
-              <input id="tab5" type="radio" name="tabs" />
-              <label class="fontMont" for="tab5">Звуковое оборудование</label>
-              <input id="tab6" type="radio" name="tabs" />
-              <label class="fontMont" for="tab6">Аксессуары</label>
-              <div class="section" id="content1">
+              <input id="popular-tab3" type="radio" name="tabs" />
+              <label class="fontMont" for="popular-tab3">Кабели</label>
+              <input id="popular-tab4" type="radio" name="tabs" />
+              <label class="fontMont" for="popular-tab4">Стойки</label>
+              <input id="popular-tab5" type="radio" name="tabs" />
+              <label class="fontMont" for="popular-tab5"
+                >Звуковое оборудование</label
+              >
+              <input id="popular-tab6" type="radio" name="tabs" />
+              <label class="fontMont" for="popular-tab6">Аксессуары</label>
+              <div class="section" id="popular-content1">
                 <div class="popular__content">
                   <div class="popular__slider-button-block">
                     <button class="popular-next">
@@ -630,19 +632,19 @@
                   </div>
                 </div>
               </div>
-              <div class="section" id="content2">
+              <div class="section" id="popular-content2">
                 <p>Описание</p>
               </div>
-              <div class="section" id="content3">
+              <div class="section" id="popular-content3">
                 <p>Описание2</p>
               </div>
-              <div class="section" id="content4">
+              <div class="section" id="popular-content4">
                 <p>Описание3</p>
               </div>
-              <div class="section" id="content5">
+              <div class="section" id="popular-content5">
                 <p>Описание4</p>
               </div>
-              <div class="section" id="content6">
+              <div class="section" id="popular-content6">
                 <p>Описание5</p>
               </div>
             </div>
@@ -651,7 +653,7 @@
       </div>
     </section>
 
-    <section class="head block-style">
+    <section class="catalog head block-style">
       <div class="head__wrapper">
         <div class="head__wrapper-headline">
           <div class="head__wrapper-new">
@@ -664,107 +666,59 @@
           </p>
         </div>
       </div>
-    </section>
-    <div class="swiper catalog-slider">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <!--    <div class="catalogTabs">
-            <input
-              class="fontMont"
-              id="catalog-tab1"
-              type="radio"
-              name="tabs"
-              checked
-            />
-            <label class="fontMont" for="catalog-tab1">Наушники</label>
-            <input id="catalog-tab2" type="radio" name="tabs" />
-            <label class="fontMont" for="catalog-tab2"
-              >Микрофоны и радиосистемы</label
-            >
-            <input id="catalog-tab3" type="radio" name="tabs" />
-            <label class="fontMont" for="catalog-tab3">Кабели</label>
-            <input id="catalog-tab4" type="radio" name="tabs" />
-            <label class="fontMont" for="catalog-tab4">Стойки</label>
-            <input id="catalog-tab5" type="radio" name="tabs" />
-            <label class="fontMont" for="catalog-tab5"
-              >Звуковое оборудование</label
-            >
-            <input id="catalog-tab6" type="radio" name="tabs" />
-            <label class="fontMont" for="catalog-tab6">Аксессуары</label>
-            <div class="catalog-section" id="catalog-content1">
-              <p>Описание21</p>
-            </div>
-            <div class="catalog-section" id="catalog-content2">
-              <p>Описание</p>
-            </div>
-            <div class="catalog-section" id="catalog-content3">
-              <p>Описание2</p>
-            </div>
-            <div class="catalog-section" id="catalog-content4">
-              <p>Описание3</p>
-            </div>
-            <div class="catalog-section" id="catalog-content5">
-              <p>Описание4</p>
-            </div>
-            <div class="catalog-section" id="catalog-content6">
-              <p>Описание5</p>
-            </div>
-          </div>-->
+
+      <div class="catalogTabs">
+        <input
+          class="fontMont catalog-input"
+          id="catalog-tab1"
+          type="radio"
+          name="tabs"
+          checked
+        />
+        <label class="fontMont" for="catalog-tab1"
+          >Микрофоны и радиосистемы</label
+        >
+        <input id="catalog-tab2" type="radio" name="tabs" />
+        <label class="fontMont" for="catalog-tab2"
+          >Измерительные микрофоны</label
+        >
+        <input id="catalog-tab3" type="radio" name="tabs" />
+        <label class="fontMont" for="catalog-tab3"
+          >Инсталляционные микрофоны</label
+        >
+        <input id="catalog-tab4" type="radio" name="tabs" />
+        <label class="fontMont" for="catalog-tab4"
+          >Инструментальные микрофоны</label
+        >
+        <input id="catalog-tab5" type="radio" name="tabs" />
+        <label class="fontMont" for="catalog-tab5"
+          >Инсталляционные микрофоны</label
+        >
+        <input id="catalog-tab6" type="radio" name="tabs" />
+        <label class="fontMont" for="catalog-tab6"
+          >Пушки и накамерные микрофоны</label
+        >
+        <div class="catalog-section" id="catalog-content1">
+          <img src="./images/microphones.png" alt="микрофоны" />
         </div>
-        <div class="swiper-slide">
-          <!--
-          <div class="catalogTabs">
-            <input
-              class="fontMont"
-              id="catalog-tab1"
-              type="radio"
-              name="tabs"
-              checked
-            />
-            <label class="fontMont" for="catalog-tab1">Наушники</label>
-            <input id="catalog-tab2" type="radio" name="tabs" />
-            <label class="fontMont" for="catalog-tab2"
-              >Микрофоны и радиосистемы</label
-            >
-            <input id="catalog-tab3" type="radio" name="tabs" />
-            <label class="fontMont" for="catalog-tab3">Кабели</label>
-            <input id="catalog-tab4" type="radio" name="tabs" />
-            <label class="fontMont" for="catalog-tab4">Стойки</label>
-            <input id="catalog-tab5" type="radio" name="tabs" />
-            <label class="fontMont" for="catalog-tab5"
-              >Звуковое оборудование</label
-            >
-            <input id="catalog-tab6" type="radio" name="tabs" />
-            <label class="fontMont" for="catalog-tab6">Аксессуары</label>
-            <div class="catalog-section" id="catalog-content1">
-              <p>Описание21</p>
-            </div>
-            <div class="catalog-section" id="catalog-content2">
-              <p>Описание</p>
-            </div>
-            <div class="catalog-section" id="catalog-content3">
-              <p>Описание2</p>
-            </div>
-            <div class="catalog-section" id="catalog-content4">
-              <p>Описание3</p>
-            </div>
-            <div class="catalog-section" id="catalog-content5">
-              <p>Описание4</p>
-            </div>
-            <div class="catalog-section" id="catalog-content6">
-              <p>Описание5</p>
-            </div>
-          </div>-->
+
+        <div class="catalog-section" id="catalog-content2">
+          <p>Описание</p>
+        </div>
+        <div class="catalog-section" id="catalog-content3">
+          <p>Описание2</p>
+        </div>
+        <div class="catalog-section" id="catalog-content4">
+          <p>Описание3</p>
+        </div>
+        <div class="catalog-section" id="catalog-content5">
+          <p>Описание4</p>
+        </div>
+        <div class="catalog-section" id="catalog-content6">
+          <p>Описание5</p>
         </div>
       </div>
-    </div>
-
-    <div class="swiper-pagination"></div>
-
-    <div class="catalog-slider-button">
-      <div class="catalog-prev"><</div>
-      <div class="catalog-next">></div>
-    </div>
+    </section>
 
     <!--
     <section>

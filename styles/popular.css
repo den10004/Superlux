@@ -60,7 +60,7 @@
 
 /***********табы*********************/
 
-.tabs {
+.popular-tabs {
   width: 100%;
   padding: 0px;
   margin: 0 auto;
@@ -68,7 +68,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .tabs {
+  .popular-tabs {
     display: flex;
     flex-wrap: wrap;
   }
@@ -94,10 +94,10 @@
 .section > p {
   margin: 0;
 }
-.tabs > input {
+.popular-tabs > input {
   display: none;
 }
-.tabs > label {
+.popular-tabs > label {
   display: block;
   width: 180px;
   padding: 15px;
@@ -109,34 +109,34 @@
 }
 
 @media screen and (max-width: 600px) {
-  .tabs > label {
+  .popular-tabs > label {
     width: auto;
     padding: 5px;
   }
 }
 
-input:checked + label {
+.popular-input:checked + label {
   font-weight: 800;
   font-size: 16px;
   line-height: 100%;
   color: #222222;
 }
-#tab1:checked ~ #content1,
-#tab2:checked ~ #content2,
-#tab3:checked ~ #content3,
-#tab4:checked ~ #content4,
-#tab5:checked ~ #content5,
-#tab6:checked ~ #content6 {
+#popular-tab1:checked ~ #popular-content1,
+#popular-tab2:checked ~ #popular-content2,
+#popular-tab3:checked ~ #popular-content3,
+#popular-tab4:checked ~ #popular-content4,
+#popular-tab5:checked ~ #popular-content5,
+#popular-tab6:checked ~ #popular-content6 {
   display: block;
 }
 
-.tabs > label {
+.popular-tabs > label {
   color: #222222;
   transition: 0s color;
   transition-delay: 0.3s;
 }
 
-.tabs > label:hover {
+.popular-tabs > label:hover {
   color: #ff2424;
 }
 

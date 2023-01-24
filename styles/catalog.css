@@ -2,13 +2,15 @@
   width: 100%;
   padding: 0px;
   margin: 0 auto;
+  height: 515px;
   position: relative;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .catalogTabs {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap;*/
+    height: 400px;
   }
 }
 
@@ -19,6 +21,15 @@
   top: 0;
   right: 0;
   width: 786px;
+  height: 517px;
+  background: #f6f6f6;
+}
+
+@media screen and (max-width: 1150px) {
+  .catalog-section {
+    width: 60%;
+    height: 300px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -26,6 +37,33 @@
     position: relative;
     width: 100%;
     padding: 5px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .catalog-section {
+    height: 200px;
+  }
+}
+
+.catalog-section > img {
+  width: 500px;
+  height: auto;
+  margin: 50px auto;
+}
+
+@media screen and (max-width: 1150px) {
+  .catalog-section > img {
+    width: 350px;
+    height: 263px;
+    margin: 5px auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .catalog-section > img {
+    width: 250px;
+    height: 188px;
   }
 }
 
@@ -37,7 +75,7 @@
 }
 .catalogTabs > label {
   display: block;
-  width: 180px;
+  width: 310px;
   padding: 15px;
   cursor: pointer;
   font-weight: 600;
@@ -46,14 +84,14 @@
   color: #888888;
 }
 
-@media screen and (max-width: 600px) {
-  .popularTabs > label {
+@media screen and (max-width: 800px) {
+  .catalogTabs > label {
     width: auto;
     padding: 5px;
   }
 }
 
-input:checked + label {
+.catalog-input:checked + label {
   font-weight: 800;
   font-size: 16px;
   line-height: 100%;
@@ -65,7 +103,7 @@ input:checked + label {
 #catalog-tab4:checked ~ #catalog-content4,
 #catalog-tab5:checked ~ #catalog-content5,
 #catalog-tab6:checked ~ #catalog-content6 {
-  display: block;
+  display: flex;
 }
 
 .catalogTabs > label {
