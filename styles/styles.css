@@ -99,12 +99,7 @@ li {
 .block-styleMargin {
   max-width: 1180px;
   margin: 0px auto;
-}
-
-@media screen and (max-width: 1440px) {
-  .block-styleMargin {
-    max-width: 95%;
-  }
+  padding: 0 10px 0 10px;
 }
 
 .marginLeft130 {
@@ -335,5 +330,21 @@ li {
   transition: 0.3s;
 }
 .social > a > svg:hover {
+  transform: scale(1.1);
+}
+
+.play {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 30%;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.play:hover {
   transform: scale(1.1);
 }

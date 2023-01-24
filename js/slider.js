@@ -87,7 +87,7 @@ var swiper = new Swiper(".survey-slider", {
     120: {
       slidesPerView: 1,
     },
-    768: {
+    1024: {
       slidesPerView: 2,
     },
   },
