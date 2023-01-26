@@ -97,28 +97,28 @@ li {
   }
 }
 
-.block-styleMargin {
+.block-style-popular {
   width: 1180px;
   margin: 120px auto;
   padding: 0 10px 0 10px;
 }
 
 @media screen and (max-width: 1024px) {
-  .block-styleMargin {
+  .block-style-popular {
     width: 100%;
     margin: 100px auto;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .block-styleMargin {
+  .block-style-popular {
     flex-direction: column;
     margin: 80px auto;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .block-styleMargin {
+  .block-style-popular {
     margin: 60px auto;
   }
 }
