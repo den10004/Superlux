@@ -40,8 +40,8 @@
 .swiper-pagination-fraction {
   bottom: 106px !important;
   left: calc(50% - 610px) !important;
-  /* width: 200px !important;*/
-  width: 110px !important;
+  width: 200px !important;
+  /*  width: 110px !important;*/
 }
 
 @media screen and (max-width: 1440px) {
