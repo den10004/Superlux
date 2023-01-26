@@ -14,6 +14,7 @@ var swiper3 = new Swiper(".new-slider", {
     el: ".new-scrollbar",
     hide: false,
     draggable: true,
+    dragSize: 70,
   },
   navigation: {
     nextEl: ".new-next",

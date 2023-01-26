@@ -15,10 +15,10 @@
 }
 
 .swiper-scrollbar-drag {
-  height: 1px;
+  height: 5px;
   background: #ff2424;
-  color: #ff2424;
-  background-color: #ff2424;
+  top: -4px;
+  border-radius: 0;
 }
 
 .new__slider-button {
@@ -39,6 +39,7 @@
 }
 
 .new__slider-button-block > button {
+  display: flex;
   border: none;
   background: transparent;
   cursor: pointer;
@@ -56,8 +57,25 @@
 
 .new__slider-button {
   display: flex;
+  align-items: center;
 }
 
 .swiper-scrollbar .new-scrollbar .swiper-scrollbar-horizontal {
   width: 50%;
+}
+
+.new__slider .swiper-horizontal > .swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  z-index: 50;
+  width: calc(100% - 100px);
+}
+
+.new__slider .swiper-scrollbar-drag {
+  height: 5px;
+  top: -4px;
+  border-radius: 0;
+  cursor: pointer;
 }
