@@ -38,12 +38,11 @@
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
-  bottom: 106px !important;
-  left: calc(50% - 610px) !important;
+  /*  bottom: 106px !important;
+  left: calc(50% - 610px) !important;*/
   width: 200px !important;
-  /*  width: 110px !important;*/
 }
-
+/*
 @media screen and (max-width: 1440px) {
   .swiper-horizontal > .swiper-pagination-bullets,
   .swiper-pagination-bullets.swiper-pagination-horizontal,
@@ -80,3 +79,4 @@
     bottom: 30px !important;
   }
 }
+*/

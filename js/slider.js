@@ -56,8 +56,15 @@ var swiper2 = new Swiper(".popular-slider", {
     120: {
       slidesPerView: 1,
     },
-    1001: {
+    699: {
       slidesPerView: 2,
+      spaceBetween: 10,
+    },
+    1000: {
+      spaceBetween: 10,
+    },
+    1001: {
+      spaceBetween: 45,
     },
   },
 });
