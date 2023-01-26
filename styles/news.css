@@ -22,7 +22,6 @@
 }
 
 .news__content {
-  /* max-width: 600px;*/
   background: #f6f6f6;
 }
 
@@ -30,6 +29,12 @@
   .news__content {
     max-width: 100%;
   }
+}
+
+.block-styleMargin {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 10px 0 10px;
 }
 
 .news__content > h4 {
