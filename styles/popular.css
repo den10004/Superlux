@@ -1,6 +1,6 @@
 .popular {
+  display: flex;
   background: #f6f6f6;
-  padding: 120px 0;
 }
 
 @media screen and (max-width: 1440px) {
@@ -15,23 +15,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  .popular {
-    height: 780px;
-  }
-}
-@media screen and (max-width: 425px) {
-  .popular {
-    height: 800px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .popular {
-    height: 820px;
-  }
-}
-
+/*
 .popular__block {
   display: flex;
   width: 100%;
@@ -57,9 +41,55 @@
     width: 100%;
   }
 }
+*/
+
+.popular__body {
+  display: flex;
+}
+
+.popular__tabs {
+  display: flex;
+  flex-direction: column;
+  width: 34%;
+}
+
+.popular__tabs > button {
+  margin-bottom: 25px;
+  text-align: start;
+  color: 222222;
+  transition-delay: 0.3s;
+}
+
+.popular__tabs > button:hover {
+  color: #ff2424;
+  transition-delay: 0.3s;
+}
+
+.popular-tab {
+  line-height: 140%;
+  color: #222222;
+  padding: 5px;
+}
+.popular-tab.active {
+  font-weight: 900;
+  cursor: pointer;
+}
+.popular__content {
+  background: #f6f6f6;
+  width: calc(100% - 432px);
+  border: 1px solid red;
+}
+
+.tab-popular {
+  display: none;
+}
+
+.tab-popular.active {
+  display: flex;
+}
 
 /***********табы*********************/
-
+/*
 .popular-tabs {
   width: 100%;
   padding: 0px;
@@ -138,7 +168,7 @@
 
 .popular-tabs > label:hover {
   color: #ff2424;
-}
+}*/
 
 /*************слайдер**********************/
 
@@ -148,7 +178,6 @@
 
 @media screen and (max-width: 1000px) {
   .popular__content {
-    max-width: 360px;
     display: flex;
     margin-right: 0;
     margin-left: auto;
@@ -230,7 +259,7 @@
   margin-bottom: -250px;
   margin-left: -200px;
 }
-
+/*
 .popular-slider .swiper-pagination-bullet {
   width: 6px;
   height: 6px;
@@ -280,3 +309,4 @@
   font-weight: 600;
   font-size: 13px;
 }
+*/
