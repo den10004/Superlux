@@ -205,6 +205,19 @@ li {
   left: -100px;
 }
 
+@media screen and (max-width: 1350px) {
+  .head__wrapper-new::before {
+    content: "_____";
+    left: -70px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .head__wrapper-new::before {
+    display: none;
+  }
+}
+
 .head__wrapper-new > span {
   font-size: 13px;
   line-height: 100%;

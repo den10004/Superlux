@@ -157,6 +157,13 @@
   }
 }
 
+@media screen and (max-width: 1250px) {
+  .catalog-buttons {
+    width: 1200px;
+    left: -20px;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .catalog-buttons {
     width: 100%;
