@@ -152,36 +152,9 @@
   }
 }
 
-@media screen and (max-width: 820px) {
-  .popular__slider-button-block {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .popular__slider-button-block > button {
-    display: none;
-  }
-}
-
 .popular__img > img {
   display: block;
   width: 245px;
   height: 350px;
   overflow: hidden;
-}
-
-@media screen and (max-width: 1440px) {
-  .popular-next > svg {
-    width: 60px;
-    height: 60px;
-  }
-
-  .popular-prev > svg {
-    width: 60px;
-    height: 60px;
-  }
-}
-
-.popular-pagination {
 }

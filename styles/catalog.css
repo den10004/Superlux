@@ -1,9 +1,29 @@
 .catalog__body {
   display: flex;
+  position: relative;
 }
 
 @media screen and (max-width: 767px) {
   .catalog__body {
+    flex-direction: column;
+  }
+}
+
+.catalog-wrap {
+  display: flex;
+  border: 1px solid #dddddd;
+  width: 1200px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px) {
+  .catalog-wrap {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .catalog-wrap {
     flex-direction: column;
   }
 }
@@ -20,7 +40,7 @@
     padding: 30px 10px 30px 10px;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .catalog__tabs {
     flex-direction: row;
     width: 100%;
@@ -34,6 +54,12 @@
   text-align: start;
   color: 222222;
   transition-delay: 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+  .catalog__tabs > button {
+    margin-bottom: 0px;
+  }
 }
 
 .catalog__tabs > button:hover {
@@ -56,19 +82,19 @@
   font-weight: 900;
   cursor: pointer;
 }
-.calalog__content {
+.catalog__content {
   background: #f6f6f6;
   width: calc(100% - 432px);
 }
 
 @media screen and (max-width: 1000px) {
-  .calalog__content {
+  .catalog__content {
     width: 80vw;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .calalog__content {
+  .catalog__content {
     width: 100%;
   }
 }
@@ -82,6 +108,12 @@
   margin: 70px auto;
   min-width: 1vw;
   height: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .tab-pane > img {
+    width: 70%;
+  }
 }
 
 .tab-pane.active {
@@ -105,4 +137,41 @@
   line-height: 140%;
   text-decoration-line: underline;
   color: #222222;
+}
+/****************слайдер****************/
+
+.catalog-buttons {
+  display: flex;
+  position: absolute;
+  top: 212px;
+  left: -40px;
+  z-index: 1;
+  width: 1250px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1440px) {
+  .catalog-buttons {
+    width: 1230px;
+    left: -30px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .catalog-buttons {
+    width: 100%;
+    left: 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .catalog-buttons {
+    top: 170px;
+  }
+}
+
+.catalog-pagination {
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
 }

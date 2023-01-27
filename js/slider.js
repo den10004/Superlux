@@ -71,10 +71,10 @@ var swiper2 = new Swiper(".popular-slider", {
 
 var swiper3 = new Swiper(".catalog-slider", {
   loop: true,
-  slidesPerView: 1.5,
+  slidesPerView: 1,
   spaceBetween: 90,
   pagination: {
-    /* el: ".popular-pagination",*/
+    el: ".catalog-pagination",
     clickable: true,
   },
   navigation: {
