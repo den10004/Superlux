@@ -152,6 +152,12 @@
   }
 }
 
+@media screen and (max-width: 720px) {
+  .popular__slider-button-block {
+    display: none;
+  }
+}
+
 .popular__img > img {
   display: block;
   width: 245px;
