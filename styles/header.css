@@ -7,7 +7,6 @@
   max-width: 1380px;
   display: flex;
   margin: 0 auto;
-  /* justify-content: space-between;*/
   align-items: center;
 }
 
@@ -45,11 +44,17 @@
   }
 }
 
+@media screen and (max-width: 425px) {
+  .header__list {
+    display: none;
+  }
+}
+/*
 @media screen and (max-width: 570px) {
   .header__list {
     width: 100%;
   }
-}
+}*/
 
 .header__list > li {
   cursor: pointer;

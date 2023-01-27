@@ -9,19 +9,31 @@
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
+  padding: 0 5px 0 5px;
 }
 
-@media screen and (max-width: 1440px) {
+.navigation-burger {
+  display: none;
+}
+
+@media screen and (max-width: 425px) {
   .navigation__wrapper {
-    max-width: 95%;
+    display: none;
+  }
+  .navigation-burger {
+    display: block;
+    cursor: pointer;
+    padding-left: 10px;
   }
 }
+
+/*
 
 @media screen and (max-width: 1100px) {
   .navigation__wrapper {
     flex-direction: column;
   }
-}
+}*/
 .navigation__wrapper-list {
   display: flex;
   list-style-type: none;
