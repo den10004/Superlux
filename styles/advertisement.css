@@ -95,12 +95,13 @@
   width: 240px;
 }
 
-.advertisement__slide {
+.advertisement-slider {
+  width: 1920px;
   position: relative;
 }
 
-.advertisement-slider {
-  width: 1920px;
+.advertisement__slide {
+  position: relative;
 }
 
 .advertisement__slide {
@@ -112,4 +113,77 @@
   color: #ffffff;
   font-weight: 600;
   font-size: 13px;
+}
+
+.advertisement-pagination-wrap {
+  position: absolute;
+  bottom: 105px;
+  left: 360px;
+  z-index: 10;
+}
+
+@media screen and (max-width: 1850px) {
+  .advertisement-pagination-wrap {
+    left: 330px;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .advertisement-pagination-wrap {
+    left: 300px;
+  }
+}
+
+@media screen and (max-width: 1750px) {
+  .advertisement-pagination-wrap {
+    left: 280px;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .advertisement-pagination-wrap {
+    left: 260px;
+  }
+}
+
+@media screen and (max-width: 1650px) {
+  .advertisement-pagination-wrap {
+    left: 230px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .advertisement-pagination-wrap {
+    left: 200px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .advertisement-pagination-wrap {
+    left: 160px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .advertisement-pagination-wrap {
+    left: 130px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .advertisement-pagination-wrap {
+    left: 80px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .advertisement-pagination-wrap {
+    left: 60px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .advertisement-pagination-wrap {
+    left: 10px;
+  }
 }
