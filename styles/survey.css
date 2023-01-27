@@ -61,9 +61,3 @@
   color: #ff2424;
   border-bottom: 1px solid #ff2424;
 }
-
-.catalog-pagination {
-  position: absolute;
-  z-index: 10;
-  bottom: 0;
-}

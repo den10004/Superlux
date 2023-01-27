@@ -101,12 +101,3 @@
     margin-top: 40px;
   }
 }
-
-.head__wrapper-description > a {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 140%;
-  text-align: right;
-  text-decoration-line: underline;
-  color: #222222;
-}

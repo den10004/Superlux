@@ -83,7 +83,7 @@ var swiper3 = new Swiper(".catalog-slider", {
   },
 });
 
-var swiper = new Swiper(".survey-slider", {
+var swiper4 = new Swiper(".survey-slider", {
   loop: true,
   slidesPerView: 2,
   spaceBetween: 30,
@@ -101,12 +101,12 @@ var swiper = new Swiper(".survey-slider", {
   },
 });
 
-var swiper = new Swiper(".news-slider", {
+var swiper5 = new Swiper(".news-slider", {
   loop: true,
   slidesPerView: 2,
   spaceBetween: 30,
   pagination: {
-    el: ".swiper-pagination",
+    el: ".news-pagination",
     clickable: true,
   },
   breakpoints: {

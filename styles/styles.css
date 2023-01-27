@@ -309,6 +309,15 @@ li {
   }
 }
 
+.head__wrapper-description > a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #222222;
+}
+
 .width725 {
   max-width: 725px;
 }
@@ -394,4 +403,27 @@ li {
   .slider-buttons > button > svg {
     display: none;
   }
+}
+
+.head__headline {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.head__headline > a {
+  display: flex;
+  align-items: flex-end;
+  color: #222222;
+  font-weight: 900;
+  font-size: 16px;
+  width: 170px;
+  justify-content: flex-end;
+  border-bottom: 1px solid #222222;
+  transition: 0s color;
+}
+
+.head__headline > a:hover {
+  color: #ff2424;
+  border-bottom: 1px solid #ff2424;
 }
