@@ -1,3 +1,11 @@
+.catalog {
+  overflow: hidden;
+}
+
+.catalog-slider {
+  overflow: visible;
+}
+
 .catalog__body {
   display: flex;
   position: relative;
@@ -123,6 +131,7 @@
 .catalog__link {
   text-align: center;
   margin-top: 50px;
+  position: relative;
 }
 
 @media screen and (max-width: 425px) {
@@ -174,6 +183,30 @@
 @media screen and (max-width: 1024px) {
   .catalog-buttons {
     top: 170px;
+  }
+}
+
+.catalog-pagination-wrap {
+  position: absolute;
+  left: -70px;
+  top: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  .catalog-pagination-wrap {
+    left: -50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .catalog-pagination-wrap {
+    top: -10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .catalog-pagination-wrap {
+    top: -20px;
   }
 }
 

@@ -70,7 +70,7 @@ var swiper2 = new Swiper(".popular-slider", {
 });
 
 var swiper3 = new Swiper(".catalog-slider", {
-  loop: true,
+  loop: false,
   slidesPerView: 1,
   spaceBetween: 90,
   pagination: {
