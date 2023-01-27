@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 768px) {
   .survey__content-card {
-    max-width: 95%;
+    max-width: 100%;
   }
 }
 
@@ -32,16 +32,11 @@
   margin-top: 5px;
   text-align: start;
 }
-/*
-.survey-pagination {
-  position: absolute;
-  top: 0px;
-  z-index: 10;
-}
-*/
 
 .survey__headline {
   display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
 .survey__headline > a {
@@ -50,14 +45,25 @@
   color: #222222;
   font-weight: 900;
   font-size: 16px;
-  line-height: 150%;
   width: 170px;
   justify-content: flex-end;
   border-bottom: 1px solid #222222;
   transition: 0s color;
 }
 
+@media screen and (max-width: 425px) {
+  .survey__content-card {
+    font-size: 14px;
+  }
+}
+
 .survey__headline > a:hover {
   color: #ff2424;
   border-bottom: 1px solid #ff2424;
+}
+
+.catalog-pagination {
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
 }

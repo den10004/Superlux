@@ -88,7 +88,7 @@ var swiper = new Swiper(".survey-slider", {
   slidesPerView: 2,
   spaceBetween: 30,
   pagination: {
-    el: ".swiper-pagination",
+    el: ".survey-pagination",
     clickable: true,
   },
   breakpoints: {
