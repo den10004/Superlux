@@ -44,7 +44,13 @@
   color: #888888;
   transition: 0.3s color;
   cursor: pointer;
-  padding: 0 5px 0 5px;
+}
+
+@media screen and (max-width: 425px) {
+  .navigation__wrapper-list > li {
+    margin-left: 0px;
+    margin-right: 10px;
+  }
 }
 
 .navigation__wrapper-list > li + li {
@@ -143,10 +149,9 @@
 
 .popup {
   position: fixed;
-
   flex-direction: column;
   top: 50px;
-  left: -100%;
+  left: -110%;
   background-color: #f6f6f6;
   z-index: 100;
   transition: 0.3s;
@@ -161,4 +166,5 @@
 }
 .popup.open {
   left: 0;
+  overflow: hidden;
 }
