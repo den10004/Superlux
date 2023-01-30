@@ -11,6 +11,7 @@
 @import "./card.css";
 
 @import "./catalog-page.css";
+@import "./profit.css";
 
 @import "./slider.css";
 @import "./slider-bullets.css";
@@ -81,7 +82,7 @@ li {
 }
 
 .block-style {
-  max-width: 1180px;
+  max-width: 1220px;
   margin: 120px auto;
   padding: 0 10px;
 }
@@ -106,7 +107,8 @@ li {
 }
 
 .block-style-popular {
-  width: 1180px;
+  width: 1220px;
+  /* max-width: 1390px;*/
   margin: 120px auto;
   padding: 0 10px 0 10px;
 }

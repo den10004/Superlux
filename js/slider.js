@@ -118,3 +118,26 @@ var swiper5 = new Swiper(".news-slider", {
     },
   },
 });
+
+var swiper6 = new Swiper(".profit-slider", {
+  loop: true,
+  slidesPerView: 3,
+  spaceBetween: 43,
+  breakpoints: {
+    120: {
+      slidesPerView: 1,
+    },
+
+    678: {
+      slidesPerView: 2,
+    },
+
+    1000: {
+      spaceBetween: 10,
+    },
+    1280: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+  },
+});

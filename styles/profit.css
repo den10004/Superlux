@@ -1,0 +1,46 @@
+.profit-slider-wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+  .profit-slider-wrapper {
+    width: 960px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .profit-slider-wrapper {
+    width: 610px;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .profit-slider-wrapper {
+    width: 300px;
+  }
+}
+
+.profit__card > img {
+  width: 100%;
+}
+
+.profit__card-description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 38px;
+  background: #f6f6f6;
+}
+
+@media screen and (max-width: 1280px) {
+  .profit__card-description {
+    padding-top: 20px;
+  }
+}
+
+.profit__card-description > a {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  color: #222222;
+}
