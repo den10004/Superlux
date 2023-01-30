@@ -10,8 +10,12 @@
 @import "./footer.css";
 @import "./card.css";
 
+/*страница каталога*/
 @import "./catalog-page.css";
 @import "./profit.css";
+
+/*страница товара*/
+@import "./article.css";
 
 @import "./slider.css";
 @import "./slider-bullets.css";
