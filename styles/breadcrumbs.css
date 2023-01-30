@@ -1,0 +1,25 @@
+.breadcrumbs {
+}
+
+.crumb {
+  display: flex;
+}
+
+.crumb > li > a {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.crumb > li + li:before {
+  padding: 10px;
+  content: url(../images/Vector.svg);
+}
+
+.crumblink {
+  color: #222222;
+}
+
+.crumblink-active {
+  color: #999999;
+}

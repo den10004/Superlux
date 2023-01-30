@@ -9,6 +9,7 @@
 @import "./news.css";
 @import "./footer.css";
 @import "./card.css";
+@import "./breadcrumbs.css";
 
 /*страница каталога*/
 @import "./catalog-page.css";
