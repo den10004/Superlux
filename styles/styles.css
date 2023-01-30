@@ -9,6 +9,9 @@
 @import "./news.css";
 @import "./footer.css";
 @import "./card.css";
+
+@import "./catalog-page.css";
+
 @import "./slider.css";
 @import "./slider-bullets.css";
 @import "./normalize.css";
@@ -196,6 +199,7 @@ li {
   text-align: start;
   position: relative;
   /* width: 510px;*/
+  /*margin-left: 90px;*/
 }
 
 .head__wrapper-new::before {

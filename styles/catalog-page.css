@@ -1,0 +1,113 @@
+.catalog-page__block {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0;
+}
+
+@media screen and (max-width: 940px) {
+  .catalog-page__block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 0;
+    width: 600px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .catalog-page__block {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 0;
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+.block-style2 {
+  max-width: 1390px;
+  margin: 120px auto;
+  padding: 0 10px;
+  border: 1px solid red;
+}
+
+@media screen and (max-width: 1024px) {
+  .block-style2 {
+    margin: 100px auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .block-style2 {
+    flex-direction: column;
+    margin: 80px auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .block-style2 {
+    margin: 60px auto;
+  }
+}
+
+.catalog-page__block-card {
+  padding-top: 50px;
+  border-right: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
+  display: flex;
+  flex-direction: column;
+  height: 460px;
+  width: 460px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.catalog-page__block-card:hover {
+  transform: scale(1.1);
+}
+
+.catalog-page__block-card > span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #222222;
+  padding-left: 90px;
+}
+
+.catalog-page__block-card > img {
+  width: 170px;
+  height: 260px;
+  margin: 63px auto 0;
+}
+
+@media screen and (max-width: 1500px) {
+  .catalog-page__block-card {
+    padding-top: 30px;
+    height: 360px;
+    width: 360px;
+  }
+  .catalog-page__block-card > span {
+    padding-left: 50px;
+  }
+
+  .catalog-page__block-card > img {
+    margin: 23px auto 0;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .catalog-page__block-card {
+    padding-top: 20px;
+    height: 300px;
+    width: 300px;
+  }
+  .catalog-page__block-card > span {
+    padding-left: 20px;
+  }
+
+  .catalog-page__block-card > img {
+    margin: 13px auto 0;
+  }
+}
