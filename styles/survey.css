@@ -61,3 +61,20 @@
   color: #ff2424;
   border-bottom: 1px solid #ff2424;
 }
+
+.survey-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+  position: absolute;
+  top: 60px;
+  left: 70%;
+  display: flex;
+}
+
+@media screen and (max-width: 1023px) {
+  .survey-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+    top: auto;
+    bottom: -20px;
+    left: 0;
+    justify-content: center;
+    width: 100% !important;
+  }
+}

@@ -109,11 +109,6 @@
     margin-top: 10px;
   }
 }
-/*
-.news-pagination {
-  position: absolute;
-  top: 30px;
-}*/
 
 .news-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
   position: absolute;
