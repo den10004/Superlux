@@ -104,7 +104,7 @@ var swiper4 = new Swiper(".survey-slider", {
 var swiper5 = new Swiper(".news-slider", {
   loop: true,
   slidesPerView: 2,
-  spaceBetween: 30,
+  spaceBetween: 60,
   pagination: {
     el: ".news-pagination",
     clickable: true,

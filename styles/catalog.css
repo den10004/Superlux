@@ -67,18 +67,14 @@
 @media screen and (max-width: 768px) {
   .catalog__tabs > button {
     margin-bottom: 0px;
+    width: 100%;
+    font-size: 14px;
   }
 }
 
 .catalog__tabs > button:hover {
   color: #ff2424;
   transition-delay: 0.3s;
-}
-
-@media screen and (max-width: 767px) {
-  .catalog__tabs > button {
-    margin-bottom: 0;
-  }
 }
 
 .nav-tab {
@@ -92,7 +88,7 @@
 }
 .catalog__content {
   background: #f6f6f6;
-  width: calc(100% - 432px);
+  width: 66%;
 }
 
 @media screen and (max-width: 1000px) {
@@ -146,16 +142,22 @@
   line-height: 140%;
   text-decoration-line: underline;
   color: #222222;
+  transition: 0s color;
+}
+
+.catalog__link > a:hover {
+  color: #ff2424;
+  transition: 0.3s color;
 }
 /****************слайдер****************/
 
 .catalog-buttons {
   display: flex;
   position: absolute;
-  top: 212px;
-  left: -40px;
+  top: calc(50% - 48px);
+  left: -46px;
   z-index: 1;
-  width: 1250px;
+  width: calc(100% + 92px);
   justify-content: space-between;
 }
 

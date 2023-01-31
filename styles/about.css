@@ -26,6 +26,26 @@
   color: #222222;
 }
 
+@media screen and (max-width: 768px) {
+  .about {
+    height: auto;
+  }
+  .about > img {
+    display: none;
+  }
+  .about__block {
+    padding-top: 0;
+  }
+  .about__description {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .about__description > p {
+    font-size: 14px;
+  }
+}
+
 .about__wrapper {
   display: flex;
   justify-content: space-between;
