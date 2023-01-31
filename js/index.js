@@ -15,6 +15,7 @@ scrollTop.addEventListener("click", () => {
 
 function OpenModal(e) {
   e.preventDefault();
+  burgerButton.classList.toggle("header-burger_active");
   burgerPopup.classList.toggle("open");
   body.classList.toggle("noscroll");
   renderPopup();
