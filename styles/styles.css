@@ -423,7 +423,7 @@ li {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
 }
 
 .head__headline > a {

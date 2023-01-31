@@ -115,14 +115,19 @@
   top: 30px;
 }*/
 
-.news-pagination
-  .swiper-pagination-clickable
-  .swiper-pagination-bullets
-  .swiper-pagination-horizontal {
+.news-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100% !important;
+  top: 60px;
+  left: 70%;
   display: flex;
-  justify-content: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .news-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+    top: auto;
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+    width: 100% !important;
+  }
 }
