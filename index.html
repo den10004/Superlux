@@ -25,17 +25,6 @@
           <img src="./images/logo.png" alt="logo" />
         </a>
         <div class="header-burger"></div>
-        <!--   <svg
-          class="header-burger"
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M3.5,7 C3.22385763,7 3,6.77614237 3,6.5 C3,6.22385763 3.22385763,6 3.5,6 L20.5,6 C20.7761424,6 21,6.22385763 21,6.5 C21,6.77614237 20.7761424,7 20.5,7 L3.5,7 Z M3.5,12 C3.22385763,12 3,11.7761424 3,11.5 C3,11.2238576 3.22385763,11 3.5,11 L20.5,11 C20.7761424,11 21,11.2238576 21,11.5 C21,11.7761424 20.7761424,12 20.5,12 L3.5,12 Z M3.5,17 C3.22385763,17 3,16.7761424 3,16.5 C3,16.2238576 3.22385763,16 3.5,16 L20.5,16 C20.7761424,16 21,16.2238576 21,16.5 C21,16.7761424 20.7761424,17 20.5,17 L3.5,17 Z"
-          />
-        </svg>-->
 
         <div class="popup" id="popup"></div>
 
@@ -521,126 +510,131 @@
 
     <section class="popular">
       <div class="block-style-popular">
-        <div class="headColor head__wrapper">
-          <div class="head__wrapper-headline">
-            <div class="head__wrapper-new">
-              <span class="fontMont">Выбор пользователей </span>
-              <h4 class="fontEuropeExt">Популярные товары</h4>
-            </div>
-            <p class="head__wrapper-description fontMont">
-              Популярные товары на основе предпочтений наших покупателей
-            </p>
-          </div>
-        </div>
-
-        <div class="popular__body">
-          <div class="popul">
-            <div class="popular__tabs">
-              <button href="#" pop-tab="1" class="popular-tab fontMont active">
-                Наушники
-              </button>
-              <button href="#" pop-tab="2" class="popular-tab fontMont">
-                Микрофоны и радиосистемы
-              </button>
-              <button href="#" pop-tab="3" class="popular-tab fontMont">
-                Кабели
-              </button>
-            </div>
-            <div class="popular-pagination">
-              <div class="swiper-pagination"></div>
+        <div class="popular-wrap">
+          <div class="headColor head__wrapper">
+            <div class="head__wrapper-headline">
+              <div class="head__wrapper-new">
+                <span class="fontMont">Выбор пользователей </span>
+                <h4 class="fontEuropeExt">Популярные товары</h4>
+              </div>
+              <p class="head__wrapper-description fontMont">
+                Популярные товары на основе предпочтений наших покупателей
+              </p>
             </div>
           </div>
-          <div class="popular__content">
-            <div popular-tab-content="1" class="tab-popular active pop1">
-              <div class="popular__slider-button-block slider-buttons">
-                <button class="popular-prev">
-                  <svg
-                    width="92"
-                    height="92"
-                    viewBox="0 0 92 92"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle
-                      cx="46"
-                      cy="46"
-                      r="45.5"
-                      transform="rotate(180 46 46)"
-                      fill="white"
-                      stroke="#E0E0E0"
-                    />
-                    <path
-                      d="M32.2929 45.2929C31.9024 45.6834 31.9024 46.3166 32.2929 46.7071L38.6569 53.0711C39.0474 53.4616 39.6805 53.4616 40.0711 53.0711C40.4616 52.6805 40.4616 52.0474 40.0711 51.6569L34.4142 46L40.0711 40.3431C40.4616 39.9526 40.4616 39.3195 40.0711 38.9289C39.6805 38.5384 39.0474 38.5384 38.6569 38.9289L32.2929 45.2929ZM59 45L33 45L33 47L59 47L59 45Z"
-                      fill="#222222"
-                    />
-                  </svg>
+          <div class="popular-pagination">
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="popular__body">
+            <div class="popul">
+              <div class="popular__tabs">
+                <button
+                  href="#"
+                  pop-tab="1"
+                  class="popular-tab fontMont active"
+                >
+                  Наушники
                 </button>
-                <button class="popular-next">
-                  <svg
-                    width="92"
-                    height="92"
-                    viewBox="0 0 92 92"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle
-                      cx="46"
-                      cy="46"
-                      r="45.5"
-                      fill="white"
-                      stroke="#E0E0E0"
-                    />
-                    <path
-                      d="M59.7071 46.7071C60.0976 46.3166 60.0976 45.6834 59.7071 45.2929L53.3431 38.9289C52.9526 38.5384 52.3195 38.5384 51.9289 38.9289C51.5384 39.3195 51.5384 39.9526 51.9289 40.3431L57.5858 46L51.9289 51.6569C51.5384 52.0474 51.5384 52.6805 51.9289 53.0711C52.3195 53.4616 52.9526 53.4616 53.3431 53.0711L59.7071 46.7071ZM33 47H59V45H33V47Z"
-                      fill="#222222"
-                    />
-                  </svg>
+                <button href="#" pop-tab="2" class="popular-tab fontMont">
+                  Микрофоны и радиосистемы
+                </button>
+                <button href="#" pop-tab="3" class="popular-tab fontMont">
+                  Кабели
                 </button>
               </div>
+            </div>
+            <div class="popular__content">
+              <div popular-tab-content="1" class="tab-popular active pop1">
+                <div class="popular__slider-button-block slider-buttons">
+                  <button class="popular-prev">
+                    <svg
+                      width="92"
+                      height="92"
+                      viewBox="0 0 92 92"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle
+                        cx="46"
+                        cy="46"
+                        r="45.5"
+                        transform="rotate(180 46 46)"
+                        fill="white"
+                        stroke="#E0E0E0"
+                      />
+                      <path
+                        d="M32.2929 45.2929C31.9024 45.6834 31.9024 46.3166 32.2929 46.7071L38.6569 53.0711C39.0474 53.4616 39.6805 53.4616 40.0711 53.0711C40.4616 52.6805 40.4616 52.0474 40.0711 51.6569L34.4142 46L40.0711 40.3431C40.4616 39.9526 40.4616 39.3195 40.0711 38.9289C39.6805 38.5384 39.0474 38.5384 38.6569 38.9289L32.2929 45.2929ZM59 45L33 45L33 47L59 47L59 45Z"
+                        fill="#222222"
+                      />
+                    </svg>
+                  </button>
+                  <button class="popular-next">
+                    <svg
+                      width="92"
+                      height="92"
+                      viewBox="0 0 92 92"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle
+                        cx="46"
+                        cy="46"
+                        r="45.5"
+                        fill="white"
+                        stroke="#E0E0E0"
+                      />
+                      <path
+                        d="M59.7071 46.7071C60.0976 46.3166 60.0976 45.6834 59.7071 45.2929L53.3431 38.9289C52.9526 38.5384 52.3195 38.5384 51.9289 38.9289C51.5384 39.3195 51.5384 39.9526 51.9289 40.3431L57.5858 46L51.9289 51.6569C51.5384 52.0474 51.5384 52.6805 51.9289 53.0711C52.3195 53.4616 52.9526 53.4616 53.3431 53.0711L59.7071 46.7071ZM33 47H59V45H33V47Z"
+                        fill="#222222"
+                      />
+                    </svg>
+                  </button>
+                </div>
 
-              <div class="swiper popular-slider">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide popular-slider-content">
-                    <div class="card headColor">
-                      <a class="card__img" href="#">
-                        <img
-                          src="./images/Superlux HD681.png"
-                          alt="Superlux PROH7FMKII"
-                        />
-                      </a>
-                      <div class="card__description">
-                        <div class="card__description-name">
-                          <a href="#" class="fontMont card__name"
-                            >Superlux PROH7FMKII</a
-                          >
-                          <span class="fontMont">5 400 ₽</span>
+                <div class="swiper popular-slider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide popular-slider-content">
+                      <div class="card headColor">
+                        <a class="card__img" href="#">
+                          <img
+                            src="./images/Superlux HD681.png"
+                            alt="Superlux PROH7FMKII"
+                          />
+                        </a>
+                        <div class="card__description">
+                          <div class="card__description-name">
+                            <a href="#" class="fontMont card__name"
+                              >Superlux PROH7FMKII</a
+                            >
+                            <span class="fontMont">5 400 ₽</span>
+                          </div>
+                          <p class="card__about fontMont">
+                            Классический вокальный микрофон в стильном
+                            ретро-дизайне
+                          </p>
                         </div>
-                        <p class="card__about fontMont">
-                          Классический вокальный микрофон в стильном
-                          ретро-дизайне
-                        </p>
                       </div>
                     </div>
-                  </div>
-                  <div class="swiper-slide popular-slider-content">
-                    <div class="card headColor">
-                      <a class="card__img bg-cF6F6F6" href="#">
-                        <img
-                          src="./images/Superlux HD681.png"
-                          alt="Superlux PROH7FMKII"
-                        />
-                      </a>
-                      <div class="card__description">
-                        <div class="card__description-name">
-                          <a href="#" class="fontMont card__name"
-                            >Superlux PROH7FMKII</a
-                          >
-                          <span class="fontMont">5 400 ₽</span>
+                    <div class="swiper-slide popular-slider-content">
+                      <div class="card headColor">
+                        <a class="card__img bg-cF6F6F6" href="#">
+                          <img
+                            src="./images/Superlux HD681.png"
+                            alt="Superlux PROH7FMKII"
+                          />
+                        </a>
+                        <div class="card__description">
+                          <div class="card__description-name">
+                            <a href="#" class="fontMont card__name"
+                              >Superlux PROH7FMKII</a
+                            >
+                            <span class="fontMont">5 400 ₽</span>
+                          </div>
+                          <p class="card__about fontMont">
+                            Классический вокальный микрофон в стильном
+                            ретро-дизайне
+                          </p>
                         </div>
-                        <p class="card__about fontMont">
-                          Классический вокальный микрофон в стильном
-                          ретро-дизайне
-                        </p>
                       </div>
                     </div>
                   </div>

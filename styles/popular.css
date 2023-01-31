@@ -1,6 +1,7 @@
 .popular {
   display: flex;
   background: #f6f6f6;
+  position: relative;
 }
 
 .popular__body {
@@ -160,7 +161,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-
+/*
 .popular-pagination {
   margin-bottom: 0px;
 }
@@ -168,5 +169,27 @@
 @media screen and (max-width: 850px) {
   .popular-pagination {
     margin-bottom: 10px;
+  }
+}*/
+
+.popular-wrap {
+  position: relative;
+}
+
+.popular-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+@media screen and (max-width: 850px) {
+  .popular-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: -20px;
   }
 }
