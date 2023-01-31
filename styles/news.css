@@ -35,6 +35,8 @@
   max-width: 1180px;
   margin: 0 auto;
   padding: 0 10px 0 10px;
+  position: relative;
+  padding-bottom: 30px;
 }
 
 .news__content > h4 {
@@ -106,4 +108,21 @@
   .news-slider {
     margin-top: 10px;
   }
+}
+/*
+.news-pagination {
+  position: absolute;
+  top: 30px;
+}*/
+
+.news-pagination
+  .swiper-pagination-clickable
+  .swiper-pagination-bullets
+  .swiper-pagination-horizontal {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
 }
