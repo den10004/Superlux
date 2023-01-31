@@ -38,12 +38,14 @@
   flex-wrap: wrap;
   width: calc(100% - 230px);
   justify-content: space-between;
+  padding-right: 10px;
 }
 
 @media screen and (max-width: 425px) {
   .navigation__wrapper-list {
     margin-top: 0;
     width: 100vw;
+    padding-right: 0px;
   }
 }
 
