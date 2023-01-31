@@ -20,6 +20,11 @@
   color: #222222;
 }
 
+.crumblink:hover {
+  color: #ff2424;
+  transition: 0.3s color;
+}
+
 .crumblink-active {
   color: #999999;
 }

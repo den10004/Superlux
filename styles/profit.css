@@ -1,23 +1,10 @@
 .profit-slider-wrapper {
-  width: 1170px;
+  width: 100%;
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1280px) {
-  .profit-slider-wrapper {
-    width: 960px;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .profit-slider-wrapper {
-    width: 610px;
-  }
-}
-
-@media screen and (max-width: 678px) {
-  .profit-slider-wrapper {
-    width: 300px;
-  }
+.profit__card {
+  width: 100%;
 }
 
 .profit__card > img {

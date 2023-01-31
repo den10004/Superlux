@@ -29,13 +29,19 @@
   width: 100%;
 }
 
-.card > img:hover {
+.card > a > img:hover {
   transform: scale(1.1);
 }
 
 .card__description {
-  margin-top: 25px;
+  margin-top: 35px;
   padding: 0px 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .card__description {
+    font-size: 16px;
+  }
 }
 
 .card__description-name {
@@ -50,7 +56,7 @@
   color: #222222;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .card__description-name > a {
     font-size: 16px;
   }
@@ -63,7 +69,7 @@
   color: #222222;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .card__description-name > span {
     font-size: 16px;
   }
@@ -71,7 +77,7 @@
 
 .detail {
   display: flex;
-  width: 140px;
+  width: 132px;
   height: 40px;
 }
 
