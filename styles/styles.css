@@ -22,6 +22,7 @@
 @import "./type-headphones.css";
 
 /*страница описания товара*/
+@import "./aboutGood.css";
 @import "./associated.css";
 
 @import "./slider.css";
