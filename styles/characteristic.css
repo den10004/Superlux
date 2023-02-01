@@ -70,6 +70,7 @@
 
 .characteristic-bottom__left {
   width: 46%;
+  position: relative;
 }
 
 .characteristic-bottom___right {
@@ -78,9 +79,33 @@
 
 @media screen and (max-width: 1000px) {
   .characteristic-bottom__left {
-    width: 100%;
+    width: 560px;
   }
   .characteristic-bottom___right {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .characteristic-bottom__left {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .characteristic-bottom__left {
+    width: 415px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .characteristic-bottom__left {
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .characteristic-bottom__left {
     width: 100%;
   }
 }
@@ -222,4 +247,33 @@
   width: 50px;
   border: none;
   text-align: center;
+}
+
+/*слайдер*/
+
+.characteristic-slider-wrap {
+  width: 125px;
+  height: 125px;
+  background: #f6f6f6;
+  display: flex;
+}
+
+.characteristic-slider-wrap > img {
+  margin: 0 auto;
+}
+
+.characteristic-buttons {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  width: 102%;
+  left: -5px;
+  top: 48px;
+}
+
+@media screen and (max-width: 425px) {
+  .characteristic-buttons {
+    display: none;
+  }
 }

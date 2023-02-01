@@ -171,3 +171,23 @@ var swiper7 = new Swiper(".associated-slider", {
     },
   },
 });
+
+var swiper = new Swiper(".characteristic-slider", {
+  loop: true,
+  slidesPerView: 4,
+  navigation: {
+    nextEl: ".characteristic-next",
+    prevEl: ".characteristic-prev",
+  },
+  breakpoints: {
+    120: {
+      slidesPerView: 2,
+    },
+    425: {
+      slidesPerView: 3,
+    },
+    531: {
+      slidesPerView: 4,
+    },
+  },
+});
