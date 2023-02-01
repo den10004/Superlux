@@ -161,16 +161,6 @@
   flex-direction: column;
   justify-content: space-between;
 }
-/*
-.popular-pagination {
-  margin-bottom: 0px;
-}
-
-@media screen and (max-width: 850px) {
-  .popular-pagination {
-    margin-bottom: 10px;
-  }
-}*/
 
 .popular-wrap {
   position: relative;

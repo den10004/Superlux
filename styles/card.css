@@ -59,6 +59,7 @@
 @media screen and (max-width: 768px) {
   .card__description-name > a {
     font-size: 16px;
+    text-align: start;
   }
 }
 

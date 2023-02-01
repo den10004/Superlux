@@ -141,3 +141,33 @@ var swiper6 = new Swiper(".profit-slider", {
     },
   },
 });
+
+var swiper7 = new Swiper(".associated-slider", {
+  loop: false,
+  slidesPerView: 3,
+  spaceBetween: 45,
+
+  navigation: {
+    nextEl: ".associated-next",
+    prevEl: ".associated-prev",
+  },
+  breakpoints: {
+    120: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+
+    500: {
+      slidesPerView: 2,
+      spaceBetween: 10,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+    1090: {
+      slidesPerView: 3,
+      spaceBetween: 45,
+    },
+  },
+});
