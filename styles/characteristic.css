@@ -1,0 +1,123 @@
+.characteristic {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .characteristic {
+    flex-direction: column;
+  }
+}
+
+.characteristic__left {
+  width: 46%;
+}
+
+.characteristic__left > img {
+  width: 100%;
+}
+
+.characteristic__right {
+  width: 46%;
+}
+
+@media screen and (max-width: 1024px) {
+  .characteristic__left {
+    width: 49%;
+  }
+  .characteristic__right {
+    width: 49%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .characteristic__left {
+    width: 100%;
+  }
+  .characteristic__right {
+    width: 100%;
+  }
+}
+
+.characteristic__right > h2 {
+  font-family: "EuropeExt";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+@media screen and (max-width: 768px) {
+  .characteristic__right > h2 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .characteristic__right > h2 {
+    font-size: 22px;
+  }
+}
+
+.characteristic__right-desc {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #888888;
+}
+
+.characteristic__right-article {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  color: #888888;
+}
+
+.characteristic__right > h4 {
+  font-weight: 600;
+  font-size: 22px;
+  color: #222222;
+  margin: 30px 0 20px 0;
+}
+
+@media screen and (max-width: 425px) {
+  .characteristic__right > h4 {
+    font-size: 18px;
+    margin: 20px 0 10px 0;
+  }
+}
+
+.characteristic__right > p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+}
+
+.characteristic__right > hr {
+  margin: 28px 0 25px 0;
+  background: #e0e0e0;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 425px) {
+  .characteristic__right > hr {
+    margin: 22px 0 18px 0;
+  }
+}
+
+.characteristic__right-parameters {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  color: #222222;
+}
+
+@media screen and (max-width: 425px) {
+  .characteristic__right-parameters {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
