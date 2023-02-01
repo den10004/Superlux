@@ -1,10 +1,27 @@
 .characteristic {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+}
+
+.charact-bottom {
+  margin-top: 20px;
+  display: flex;
 }
 
 @media screen and (max-width: 768px) {
-  .characteristic {
+  .charact-bottom {
+    flex-direction: column;
+  }
+}
+
+.characteristic-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .characteristic-top {
     flex-direction: column;
   }
 }
@@ -35,6 +52,35 @@
     width: 100%;
   }
   .characteristic__right {
+    width: 100%;
+  }
+}
+
+.characteristic-bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .characteristic-bottom {
+    flex-direction: column;
+  }
+}
+
+.characteristic-bottom__left {
+  width: 46%;
+}
+
+.characteristic-bottom___right {
+  width: 46%;
+}
+
+@media screen and (max-width: 1000px) {
+  .characteristic-bottom__left {
+    width: 100%;
+  }
+  .characteristic-bottom___right {
     width: 100%;
   }
 }
@@ -120,4 +166,60 @@
     font-size: 14px;
     line-height: 24px;
   }
+}
+
+/**нижний блок**/
+
+.characteristic__right-amount {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 125px;
+  align-items: center;
+}
+
+.characteristic__right-amount > span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  color: #222222;
+  margin-right: 5px;
+}
+
+.characteristic__right-amount > button {
+  width: 160px;
+  height: 50px;
+  background: #222222;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.characteristic__right-amount > button:hover {
+  background: #ff2424;
+  transition: 0.3s background;
+}
+
+.count-button {
+  width: 11px;
+  color: #888888;
+}
+
+.characteristic__right-count {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 7px;
+  margin-right: 5px;
+}
+
+.characteristic__right-count > input {
+  display: flex;
+  justify-content: space-between;
+  color: #ff2424;
+  font-weight: 800;
+  font-size: 18px;
+  width: 50px;
+  border: none;
+  text-align: center;
 }
