@@ -198,8 +198,20 @@ var swiper = new Swiper(".goods-slider", {
   freeMode: true,
   watchSlidesProgress: true,
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".goods-button-next",
+    prevEl: ".goods-button-prev",
+  },
+  breakpoints: {
+    120: {
+      slidesPerView: 2,
+    },
+    400: {
+      slidesPerView: 3,
+    },
+
+    500: {
+      slidesPerView: 4,
+    },
   },
 });
 var swiper2 = new Swiper(".goods-slider2", {

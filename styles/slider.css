@@ -32,29 +32,33 @@
 }
 
 .goods-slider2 {
-  height: 80%;
+  height: 560px;
   width: 100%;
 }
 
+@media screen and (max-width: 1150px) {
+  .goods-slider2 {
+    height: auto;
+  }
+}
+
 .goods-slider {
-  height: 150px;
+  height: 147px;
   box-sizing: border-box;
-  padding: 10px 0;
+  padding-top: 20px;
 }
 
 .goods-slider .swiper-slide {
-  width: 25%;
-  height: 100%;
   cursor: pointer;
+  background: #f6f6f6;
+}
+
+.goods-slider .swiper-slide:hover {
+  border: 1px solid #ff2424;
+  transition: 0.3s border;
 }
 
 .goods-slider .swiper-slide-thumb-active {
   opacity: 1;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  border: 1px solid #ff2424;
 }
