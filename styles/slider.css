@@ -36,12 +36,6 @@
   width: 100%;
 }
 
-@media screen and (max-width: 1150px) {
-  .goods-slider2 {
-    height: auto;
-  }
-}
-
 .goods-slider {
   height: 147px;
   box-sizing: border-box;

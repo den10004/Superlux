@@ -119,6 +119,18 @@ li {
   }
 }
 
+.sectionGoods-style {
+  max-width: 1220px;
+  margin: 50px auto 94px;
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .sectionGoods-style {
+    margin: 30px auto 34px;
+  }
+}
+
 .section-style {
   max-width: 1220px;
   margin: 60px auto 0px;
