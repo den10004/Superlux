@@ -1,9 +1,4 @@
-.characteristic {
-  display: flex;
-  flex-direction: column;
-}
-
-.charact-bottom {
+/*.charact-bottom {
   margin-top: 20px;
   display: flex;
 }
@@ -193,7 +188,7 @@
   }
 }
 
-/**нижний блок**/
+
 
 .characteristic__right-amount {
   display: flex;
@@ -249,7 +244,7 @@
   text-align: center;
 }
 
-/*слайдер*/
+
 
 .characteristic-slider-wrap {
   width: 125px;
@@ -276,4 +271,123 @@
   .characteristic-buttons {
     display: none;
   }
+}
+*/
+
+/******************/
+
+.characteristic {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.characteristic__left {
+  width: 48%;
+}
+
+.characteristic__right {
+  width: 48%;
+}
+
+.characteristic__right > h2 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #222222;
+  margin-bottom: 10px;
+}
+
+.characteristic__right > span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #888888;
+}
+
+.characteristic__right > h4 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26.4px;
+  color: #222222;
+  margin: 30px 0 20px 0;
+}
+
+.characteristic__right > p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+}
+
+.characteristic__right > hr {
+  height: 1px;
+  width: 100%;
+  background: #e0e0e0;
+  opacity: 0.5;
+  margin: 28px 0 25px 0;
+}
+
+.characteristic__description > span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  color: #222222;
+}
+
+/**************************/
+
+.characteristic__amount {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 125px;
+  align-items: center;
+}
+
+.characteristic__amount > span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  color: #222222;
+  margin-right: 5px;
+}
+
+.characteristic__amount > button {
+  width: 160px;
+  height: 50px;
+  background: #222222;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.characteristic__amount > button:hover {
+  background: #ff2424;
+  transition: 0.3s background;
+}
+
+.count-button {
+  width: 11px;
+  color: #888888;
+}
+
+.characteristic__count {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 7px;
+  margin-right: 5px;
+}
+
+.characteristic__count > input {
+  display: flex;
+  justify-content: space-between;
+  color: #ff2424;
+  font-weight: 800;
+  font-size: 18px;
+  width: 50px;
+  border: none;
+  text-align: center;
 }
