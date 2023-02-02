@@ -6,7 +6,6 @@
 
 @media screen and (max-width: 1500px) {
   .catalog-page__block {
-    width: 1080px;
     margin: 0 auto;
   }
 }
@@ -41,24 +40,62 @@
 
 .catalog-page__block-card {
   padding-top: 50px;
-  border: 1px solid #c4c4c4;
   display: flex;
   flex-direction: column;
+  border-top: 1px solid #c4c4c4;
+  border-right: 1px solid #c4c4c4;
   height: 460px;
-  width: 460px;
+  width: 100%;
   cursor: pointer;
   transition: 0.3s;
 }
 
 .catalog-page__block-card:hover {
-  transform: scale(1.1);
-  background: #ffffff;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.07);
+  transition: 0.3s box-shadow;
+  background-image: url(../images/go.svg);
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-position: right 38px bottom 38px;
+  z-index: 10;
+  cursor: pointer;
 }
 
-@media screen and (max-width: 375px) {
-  .catalog-page__block-card:hover {
-    transform: scale(1.05);
+.catalog-page__block-card:nth-child(-n + 3) {
+  border-top: none;
+}
+
+.catalog-page__block-card:nth-child(3n) {
+  border-right: none;
+}
+
+@media screen and (max-width: 940px) {
+  .catalog-page__block-card:nth-child(-n + 3) {
+    border-top: 1px solid #c4c4c4;
+  }
+  .catalog-page__block-card:nth-child(3n) {
+    border-right: 1px solid #c4c4c4;
+  }
+  .catalog-page__block-card:nth-child(1) {
+    border-top: none;
+  }
+  .catalog-page__block-card:nth-child(2) {
+    border-top: none;
+  }
+  .catalog-page__block-card:nth-child(2n) {
+    border-right: none;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .catalog-page__block-card {
+    border-right: none;
+  }
+  .catalog-page__block-card:nth-child(3n) {
+    border-right: none;
+  }
+  .catalog-page__block-card:nth-child(2n) {
+    border-top: 1px solid #c4c4c4;
   }
 }
 
@@ -72,22 +109,18 @@
 
 .catalog-page__block-card > img {
   width: 170px;
-  height: 260px;
   margin: 63px auto 0;
 }
 
 @media screen and (max-width: 1100px) {
   .catalog-page__block-card > img {
     width: 138px;
-    height: 210px;
   }
 }
 
 @media screen and (max-width: 1500px) {
   .catalog-page__block-card {
     padding-top: 30px;
-    height: 360px;
-    width: 360px;
   }
   .catalog-page__block-card > span {
     padding-left: 50px;
