@@ -39,8 +39,23 @@
 @media screen and (max-width: 1150px) {
   .goods-slider2 {
     height: auto;
-    width: 50%;
   }
+  .goods-img {
+    width: 50% !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .goods-slider2 {
+    height: auto;
+  }
+  .goods-img {
+    width: 100% !important;
+  }
+}
+
+.swiper-slide.swiper-slide-active {
+  background: #f6f6f6;
 }
 
 .goods-slider {
