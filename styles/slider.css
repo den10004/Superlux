@@ -1,50 +1,60 @@
 .swiper {
-  /*max-width: 1920px;*/
-  height: 100%;
   width: 100%;
+  height: 100%;
 }
 
 .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
   align-items: center;
 }
 
 .swiper-slide img {
   display: block;
-  /*width: 100%;*/
-  /* height: 100%;*/
-  object-fit: cover;
-}
-
-.article__img {
-  display: block;
-  width: 100%;
-  height: 360px;
-  overflow: hidden;
-}
-
-.article__img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  overflow: hidden;
-  transition: all 0.3s;
 }
 
-.article__img img:hover {
-  transform: scale(1.1);
-  transition: all 0.3s;
+.swiper {
+  width: 100%;
+  /* height: 300px;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.goods-slider2 {
+  height: 80%;
+  width: 100%;
+}
+
+.goods-slider {
+  height: 150px;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.goods-slider .swiper-slide {
+  width: 25%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.goods-slider .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

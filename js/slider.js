@@ -171,7 +171,7 @@ var swiper7 = new Swiper(".associated-slider", {
   },
 });
 
-var swiper = new Swiper(".characteristic-slider", {
+var swiper8 = new Swiper(".characteristic-slider", {
   loop: true,
   slidesPerView: 4,
   navigation: {
@@ -191,18 +191,20 @@ var swiper = new Swiper(".characteristic-slider", {
   },
 });
 
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".goods-slider", {
+  loop: true,
   spaceBetween: 10,
   slidesPerView: 4,
   freeMode: true,
   watchSlidesProgress: true,
-});
-var swiper2 = new Swiper(".mySwiper2", {
-  spaceBetween: 10,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+});
+var swiper2 = new Swiper(".goods-slider2", {
+  loop: true,
+  spaceBetween: 10,
   thumbs: {
     swiper: swiper,
   },
