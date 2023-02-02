@@ -25,3 +25,16 @@
 .crumblink-active {
   color: #999999;
 }
+
+.breadcrumbs-style {
+  max-width: 1220px;
+  margin: 60px auto 0px;
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .breadcrumbs-style {
+    flex-direction: column;
+    margin: 40px auto 0px;
+  }
+}

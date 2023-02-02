@@ -119,6 +119,19 @@ li {
   }
 }
 
+.section-style {
+  max-width: 1220px;
+  margin: 60px auto 60px;
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .breadcrumbs-style {
+    flex-direction: column;
+    margin: 40px auto 40px;
+  }
+}
+
 .block-style-popular {
   width: 1220px;
   /* max-width: 1390px;*/

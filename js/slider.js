@@ -127,12 +127,11 @@ var swiper6 = new Swiper(".profit-slider", {
     120: {
       slidesPerView: 1,
     },
-
-    678: {
+    500: {
       slidesPerView: 2,
     },
-
-    1000: {
+    767: {
+      slidesPerView: 3,
       spaceBetween: 10,
     },
     1280: {
