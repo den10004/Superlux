@@ -8,6 +8,9 @@
   align-items: flex-end;
 }
 
+.survey__content {
+}
+
 .survey__content-card {
   max-width: 580px;
 }
