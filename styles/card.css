@@ -20,6 +20,7 @@
 
 .card__img {
   display: flex;
+  overflow: hidden;
 }
 
 .card__img > img {
@@ -54,6 +55,10 @@
   font-size: 18px;
   line-height: 100%;
   color: #222222;
+}
+.card__description-name > a:hover {
+  color: #ff2424;
+  transition: 0.3s color;
 }
 
 @media screen and (max-width: 768px) {

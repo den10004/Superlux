@@ -74,6 +74,8 @@ button {
 
 li {
   list-style-type: none;
+  display: flex;
+  align-items: center;
 }
 
 .fontMont {
@@ -137,10 +139,9 @@ li {
   padding: 0 10px;
 }
 
-@media screen and (max-width: 768px) {
-  .breadcrumbs-style {
-    flex-direction: column;
-    margin: 40px auto 40px;
+@media screen and (max-width: 425px) {
+  .section-style {
+    margin: 30px auto 0px;
   }
 }
 
@@ -232,6 +233,7 @@ li {
 @media screen and (max-width: 767px) {
   .head__wrapper-headline {
     flex-direction: column;
+    overflow: auto;
   }
 }
 
@@ -483,4 +485,40 @@ li {
   color: #ff2424;
   transition: 0.3s color;
   border-bottom: 1px solid #ff2424;
+}
+
+.mb {
+  margin-bottom: 120px;
+}
+
+@media screen and (max-width: 1024px) {
+  .mb {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mb {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .mb {
+    margin-bottom: 40px;
+  }
+}
+
+.arrow {
+  position: absolute;
+  right: 38px;
+  bottom: 38px;
+  opacity: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .arrow {
+    right: 15px;
+    bottom: 15px;
+  }
 }

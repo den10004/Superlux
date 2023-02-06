@@ -1,11 +1,11 @@
 .crumb {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .crumb > li > a {
   font-weight: 600;
   font-size: 14px;
+  white-space: nowrap;
 }
 
 .crumb > li + li:before {
@@ -28,13 +28,19 @@
 
 .breadcrumbs-style {
   max-width: 1220px;
-  margin: 60px auto 0px;
+  margin: 40px auto 0px;
   padding: 0 10px;
 }
 
 @media screen and (max-width: 768px) {
   .breadcrumbs-style {
     flex-direction: column;
-    margin: 40px auto 0px;
+    margin: 20px auto 0px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .breadcrumbs-style {
+    margin: 0px auto 0px;
   }
 }

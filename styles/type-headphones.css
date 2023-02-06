@@ -41,7 +41,9 @@
 
 .typeHeadphones__button:hover {
   background-color: #ff2424;
-  transition-delay: 0.3s background-color;
+  border-color: #ff2424;
+  color: white;
+  transition: 0.3s all;
 }
 
 @media screen and (max-width: 425px) {
