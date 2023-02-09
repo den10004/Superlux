@@ -1,5 +1,2 @@
-# den10004-Superlux https://github.com/den10004/superlux.git
-
-# ссылка на проект
-
-# https://den10004.github.io/Superlux/
+# Вёрстка макета. ИСпользуемые технологии: HTML, CSS, JS, swiper-слайдер, видео-блок fancyapps
+# ссылка на проект  https://den10004.github.io/Superlux/
